@@ -1,0 +1,145 @@
+[
+  {
+    "tool_id": "web_search",
+    "name": "web_search",
+    "description": "Search the web using DuckDuckGo.",
+    "arguments_schema": [
+      {"name": "query", "type": "string", "required": true},
+      {"name": "engine", "type": "string", "required": false},
+      {"name": "max_results", "type": "integer", "required": false}
+    ]
+  },
+  {
+    "tool_id": "excel_reader",
+    "name": "excel_reader",
+    "description": "Read Excel/CSV files using pandas.",
+    "arguments_schema": [
+      {"name": "file_path", "type": "string", "required": true},
+      {"name": "sheet", "type": "string", "required": false},
+      {"name": "query", "type": "string", "required": false}
+    ]
+  },
+  {
+    "tool_id": "audio_transcription",
+    "name": "audio_transcription",
+    "description": "Transcribe audio using OpenAI Whisper (lazy loaded).",
+    "arguments_schema": [
+      {"name": "audio_path", "type": "string", "required": true},
+      {"name": "language", "type": "string", "required": false}
+    ]
+  },
+  {
+    "tool_id": "file_reader",
+    "name": "file_reader",
+    "description": "Read various file formats.",
+    "arguments_schema": [
+      {"name": "file_path", "type": "string", "required": true}
+    ]
+  },
+  {
+    "tool_id": "python_executor",
+    "name": "python_executor",
+    "description": "Execute Python code with captured stdout.",
+    "arguments_schema": [
+      {"name": "code", "type": "string", "required": true}
+    ]
+  },
+  {
+    "tool_id": "pptx_reader",
+    "name": "pptx_reader",
+    "description": "Read PowerPoint presentations using python-pptx.",
+    "arguments_schema": [
+      {"name": "file_path", "type": "string", "required": true},
+      {"name": "slide_number", "type": "integer", "required": false}
+    ]
+  },
+  {
+    "tool_id": "pdf_reader",
+    "name": "pdf_reader",
+    "description": "Read PDF files using pypdf.",
+    "arguments_schema": [
+      {"name": "file_path", "type": "string", "required": true},
+      {"name": "page", "type": "integer", "required": false}
+    ]
+  },
+  {
+    "tool_id": "zip_extractor",
+    "name": "zip_extractor",
+    "description": "Extract ZIP archive contents.",
+    "arguments_schema": [
+      {"name": "file_path", "type": "string", "required": true},
+      {"name": "extract_to", "type": "string", "required": false}
+    ]
+  },
+  {
+    "tool_id": "download_file",
+    "name": "download_file",
+    "description": "Download a file from a URL using requests.",
+    "arguments_schema": [
+      {"name": "url", "type": "string", "required": true},
+      {"name": "save_path", "type": "string", "required": false}
+    ]
+  },
+  {
+    "tool_id": "web_browser",
+    "name": "web_browser",
+    "description": "Web browser using requests + BeautifulSoup.",
+    "arguments_schema": [
+      {"name": "url", "type": "string", "required": true},
+      {"name": "action", "type": "string", "required": false}
+    ]
+  },
+  {
+    "tool_id": "calculator",
+    "name": "calculator",
+    "description": "Calculator that delegates to python_executor.",
+    "arguments_schema": [
+      {"name": "expression", "type": "string", "required": true}
+    ]
+  },
+  {
+    "tool_id": "submit_final_answer",
+    "name": "submit_final_answer",
+    "description": "Submit the final answer to the task.",
+    "arguments_schema": [
+      {"name": "answer", "type": "string", "required": true},
+      {"name": "answer_type", "type": "string", "required": false}
+    ]
+  },
+  {
+    "tool_id": "image_recognition",
+    "name": "image_recognition",
+    "description": "Image recognition using pytesseract OCR.",
+    "arguments_schema": [
+      {"name": "image_path", "type": "string", "required": true},
+      {"name": "task", "type": "string", "required": false}
+    ]
+  },
+  {
+    "tool_id": "video_analysis",
+    "name": "video_analysis",
+    "description": "Mock video analysis - would use video processing libraries.",
+    "arguments_schema": [
+      {"name": "video_path", "type": "string", "required": true},
+      {"name": "task", "type": "string", "required": false}
+    ]
+  },
+  {
+    "tool_id": "reasoning",
+    "name": "reasoning",
+    "description": "Perform logical reasoning on a given problem.",
+    "arguments_schema": [
+      {"name": "problem", "type": "string", "required": true}
+    ]
+  },
+  {
+    "tool_id": "code_interpreter",
+    "name": "code_interpreter",
+    "description": "Mock code interpreter - for non-Python languages.",
+    "arguments_schema": [
+      {"name": "code", "type": "string", "required": true},
+      {"name": "language", "type": "string", "required": false},
+      {"name": "action", "type": "string", "required": false}
+    ]
+  }
+]

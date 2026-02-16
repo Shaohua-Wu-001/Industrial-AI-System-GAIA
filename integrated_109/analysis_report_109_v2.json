@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "total_tasks": 109,
+    "level_distribution": {
+      "2": 50,
+      "1": 38,
+      "3": 21
+    },
+    "source_distribution": {
+      "ta_99_tasks": 99,
+      "v5_original": 10
+    },
+    "total_steps": 17661,
+    "avg_steps_per_task": 162.0275229357798,
+    "total_validated_steps": 426,
+    "total_valid_steps": 426,
+    "overall_validation_rate": 1.0
+  },
+  "source_stats": {
+    "ta_99_tasks": {
+      "tasks": 99,
+      "total_steps": 426,
+      "valid_steps": 426,
+      "validation_rate": 1.0
+    },
+    "v5_original": {
+      "tasks": 10,
+      "total_steps": 0,
+      "valid_steps": 0,
+      "validation_rate": 0
+    }
+  },
+  "tool_usage": {
+    "None": 17235,
+    "web_browser": 223,
+    "web_search": 163,
+    "calculator": 33,
+    "python_executor": 7
+  },
+  "param_usage": {
+    "web_browser.url": 223,
+    "web_search.query": 163,
+    "calculator.expression": 33,
+    "python_executor.code": 7
+  },
+  "validation_summary": {
+    "tasks_with_100%_valid": 82,
+    "tasks_with_errors": 27
+  },
+  "unified_tools_count": 51
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "task_id": "gaia_val_l3_000",
+    "ground_truth": "86",
+    "predicted_answer": "85.71428571428571",
+    "answer_type": "integer",
+    "validation_status": "incorrect",
+    "success_rate": 1.0
+  },
+  {
+    "task_id": "gaia_val_l3_001",
+    "ground_truth": "26.4",
+    "predicted_answer": "26.4",
+    "answer_type": "float",
+    "validation_status": "correct",
+    "success_rate": 1.0
+  },
+  {
+    "task_id": "gaia_val_l3_002",
+    "ground_truth": "Claude Shannon",
+    "predicted_answer": null,
+    "answer_type": "text",
+    "validation_status": "unknown",
+    "success_rate": 1.0
+  },
+  {
+    "task_id": "gaia_val_l3_003",
+    "ground_truth": "4192",
+    "predicted_answer": null,
+    "answer_type": "integer",
+    "validation_status": "unknown",
+    "success_rate": 1.0
+  },
+  {
+    "task_id": "gaia_val_l3_004",
+    "ground_truth": "22",
+    "predicted_answer": "22.22222222222222",
+    "answer_type": "integer",
+    "validation_status": "correct",
+    "success_rate": 1.0
+  },
+  {
+    "task_id": "gaia_val_l3_005",
+    "ground_truth": "mice",
+    "predicted_answer": null,
+    "answer_type": "text",
+    "validation_status": "unknown",
+    "success_rate": 0.625
+  },
+  {
+    "task_id": "gaia_val_l3_006",
+    "ground_truth": "Soups and Stews",
+    "predicted_answer": null,
+    "answer_type": "text",
+    "validation_status": "unknown",
+    "success_rate": 0.0
+  },
+  {
+    "task_id": "gaia_val_l3_007",
+    "ground_truth": "7, 9",
+    "predicted_answer": null,
+    "answer_type": "text",
+    "validation_status": "unknown",
+    "success_rate": 0
+  },
+  {
+    "task_id": "gaia_val_l3_008",
+    "ground_truth": "101.376, 84.348",
+    "predicted_answer": null,
+    "answer_type": "text",
+    "validation_status": "unknown",
+    "success_rate": 1.0
+  },
+  {
+    "task_id": "gaia_val_l3_009",
+    "ground_truth": "55",
+    "predicted_answer": null,
+    "answer_type": "integer",
+    "validation_status": "unknown",
+    "success_rate": 0.75
+  }
+]

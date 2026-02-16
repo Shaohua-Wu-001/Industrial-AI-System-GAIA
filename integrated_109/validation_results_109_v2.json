@@ -1,0 +1,3938 @@
+[
+  {
+    "task_id": "gaia_ta_level_2_17b5a6a3",
+    "source": "ta_99_tasks",
+    "total_steps": 7,
+    "valid_steps": 7,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_04a04a9b",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_14569e28",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "python_executor",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "python_executor",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "python_executor",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "python_executor",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_e1fc63a2",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_8e867cd7",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_3627a8be",
+    "source": "ta_99_tasks",
+    "total_steps": 7,
+    "valid_steps": 7,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_7619a514",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_ec09fa32",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_3_676e5e31",
+    "source": "ta_99_tasks",
+    "total_steps": 9,
+    "valid_steps": 9,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n16",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n17",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_2a649bb1",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_87c610df",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_dd3c7503",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_5d0080cb",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_46719c30",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_4b6bb5f7",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_f0f46385",
+    "source": "ta_99_tasks",
+    "total_steps": 7,
+    "valid_steps": 7,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_3_384d0dd8",
+    "source": "ta_99_tasks",
+    "total_steps": 11,
+    "valid_steps": 11,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n10",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n11",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_e4e91f1c",
+    "source": "ta_99_tasks",
+    "total_steps": 2,
+    "valid_steps": 2,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_56137764",
+    "source": "ta_99_tasks",
+    "total_steps": 2,
+    "valid_steps": 2,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_3_de9887f5",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_0ff53813",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_3_983bba7c",
+    "source": "ta_99_tasks",
+    "total_steps": 10,
+    "valid_steps": 10,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n11",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n12",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_a7feb290",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_2d83110e",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_2_33d8ea3b",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_e8cb5b03",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_27d5d136",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_1_dc28cf18",
+    "source": "ta_99_tasks",
+    "total_steps": 7,
+    "valid_steps": 7,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_b816bfce",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_f46b4380",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_72e110e7",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_b9763138",
+    "source": "ta_99_tasks",
+    "total_steps": 2,
+    "valid_steps": 2,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_16d825ff",
+    "source": "ta_99_tasks",
+    "total_steps": 11,
+    "valid_steps": 11,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n10",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n12",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_544b7f0c",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_42576abe",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_2_6b078778",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_b415aba4",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_08cae58d",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_2dfc4c37",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_935e2cff",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_4fc2f1ae",
+    "source": "ta_99_tasks",
+    "total_steps": 2,
+    "valid_steps": 2,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_9f41b083",
+    "source": "ta_99_tasks",
+    "total_steps": 10,
+    "valid_steps": 10,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n10",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_6f37996b",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_3_56db2318",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_2_71345b0a",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_3_72c06643",
+    "source": "ta_99_tasks",
+    "total_steps": 16,
+    "valid_steps": 16,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n10",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n12",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n14",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n15",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n17",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n19",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n20",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n21",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n24",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n25",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_3_ebbc1f13",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_7b5377b0",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_ad37a656",
+    "source": "ta_99_tasks",
+    "total_steps": 7,
+    "valid_steps": 7,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_f3917a3d",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_4b650a35",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_2_48eb8242",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_c8b7e059",
+    "source": "ta_99_tasks",
+    "total_steps": 11,
+    "valid_steps": 11,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n10",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n12",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_d1af70ea",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_c714ab3a",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_2_ded28325",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_d700d50d",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_3_851e570a",
+    "source": "ta_99_tasks",
+    "total_steps": 8,
+    "valid_steps": 8,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "python_executor",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_cabe07ed",
+    "source": "ta_99_tasks",
+    "total_steps": 1,
+    "valid_steps": 1,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_0a3cd321",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_f2feb6a4",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_3cef3a44",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_3_50f58759",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_0b260a57",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n12",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_ed58682d",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_d0633230",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_023e9d44",
+    "source": "ta_99_tasks",
+    "total_steps": 10,
+    "valid_steps": 10,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n10",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n11",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n12",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n13",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_305ac316",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_2_65638e28",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_3ff6b7a9",
+    "source": "ta_99_tasks",
+    "total_steps": 1,
+    "valid_steps": 1,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_708b99c5",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_0a65cb96",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_11af4e1a",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_e142056d",
+    "source": "ta_99_tasks",
+    "total_steps": 1,
+    "valid_steps": 1,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n6",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_50ad0280",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_2_65da0822",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_0bb3b44a",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_1_7673d772",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_c365c1c7",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_7d4a7d1d",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_dc22a632",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_e2d69698",
+    "source": "ta_99_tasks",
+    "total_steps": 5,
+    "valid_steps": 5,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_3f57289b",
+    "source": "ta_99_tasks",
+    "total_steps": 1,
+    "valid_steps": 1,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_23dd907f",
+    "source": "ta_99_tasks",
+    "total_steps": 4,
+    "valid_steps": 4,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_42d4198c",
+    "source": "ta_99_tasks",
+    "total_steps": 1,
+    "valid_steps": 1,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_a26649c6",
+    "source": "ta_99_tasks",
+    "total_steps": 10,
+    "valid_steps": 10,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n11",
+        "tool": "calculator",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_3_9e1fc53b",
+    "source": "ta_99_tasks",
+    "total_steps": 7,
+    "valid_steps": 7,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_840bfca7",
+    "source": "ta_99_tasks",
+    "total_steps": 3,
+    "valid_steps": 3,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_1dcc160f",
+    "source": "ta_99_tasks",
+    "total_steps": 9,
+    "valid_steps": 9,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_e0c10771",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_1_a0068077",
+    "source": "ta_99_tasks",
+    "total_steps": 8,
+    "valid_steps": 8,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_2_e29834fd",
+    "source": "ta_99_tasks",
+    "total_steps": 6,
+    "valid_steps": 6,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "python_executor",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "python_executor",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_bda648d7",
+    "source": "ta_99_tasks",
+    "total_steps": 1,
+    "valid_steps": 1,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_50ec8903",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_1_cf106601",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_3_5f982798",
+    "source": "ta_99_tasks",
+    "total_steps": 9,
+    "valid_steps": 9,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n4",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_ta_level_1_a0c07678",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_1_5a0c1adf",
+    "source": "ta_99_tasks",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_ta_level_2_db4fd70a",
+    "source": "ta_99_tasks",
+    "total_steps": 10,
+    "valid_steps": 10,
+    "validation_rate": 1.0,
+    "validation_results": [
+      {
+        "step_id": "n0",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n1",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n2",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n3",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n5",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n6",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n7",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n8",
+        "tool": "web_search",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n9",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      },
+      {
+        "step_id": "n10",
+        "tool": "web_browser",
+        "status": "valid",
+        "missing_required": [],
+        "extra_params": []
+      }
+    ]
+  },
+  {
+    "task_id": "gaia_val_l3_000",
+    "source": "v5_original",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_val_l3_001",
+    "source": "v5_original",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_val_l3_002",
+    "source": "v5_original",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_val_l3_003",
+    "source": "v5_original",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_val_l3_004",
+    "source": "v5_original",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_val_l3_005",
+    "source": "v5_original",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_val_l3_006",
+    "source": "v5_original",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_val_l3_007",
+    "source": "v5_original",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_val_l3_008",
+    "source": "v5_original",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  },
+  {
+    "task_id": "gaia_val_l3_009",
+    "source": "v5_original",
+    "total_steps": 0,
+    "valid_steps": 0,
+    "validation_rate": 0,
+    "validation_results": []
+  }
+]

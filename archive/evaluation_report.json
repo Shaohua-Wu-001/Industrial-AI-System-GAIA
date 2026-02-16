@@ -1,0 +1,38 @@
+{
+  "function_calling": {
+    "total_calls": 34,
+    "valid_calls": 34,
+    "invalid_tools": 0,
+    "invalid_args": 0,
+    "accuracy": 1.0
+  },
+  "planning": {
+    "total_tasks": 10,
+    "avg_executable_rate": 0.5529761904761904,
+    "avg_steps_per_task": 3.4,
+    "avg_skipped_per_task": 3.0
+  },
+  "skip_categories": {
+    "佔位符參數": 23,
+    "檔案不存在": 4,
+    "不支援功能": 2,
+    "其他": 1
+  },
+  "insights": {
+    "parser_limitations": [
+      "無法處理動態參數",
+      "無法處理多步驟依賴",
+      "無法處理循環和條件邏輯"
+    ],
+    "tool_limitations": [
+      "外部依賴限制",
+      "工具覆蓋不完整",
+      "缺少狀態管理"
+    ],
+    "answer_accuracy_challenges": [
+      "需要多步驟推理",
+      "缺少驗證機制",
+      "某些任務超出能力"
+    ]
+  }
+}

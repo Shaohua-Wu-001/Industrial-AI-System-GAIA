@@ -1,0 +1,473 @@
+==========================================================================
+  🚀 GAIA Project - Full Pipeline Execution (Local)
+  開始時間: 2026-02-02 16:13:03
+==========================================================================
+
+[0;36m[Step 1] 檢查前置條件[0m
+--------------------------------------------------------------------------
+[0;32m✅ Python3: Python 3.10.18[0m
+[0;32m✅ 所有必要檔案存在[0m
+[1;33m⚠️  警告: SERPER_API_KEY 未設定[0m
+   部分 web_search 功能可能無法使用
+
+[0;36m[Step 2] Parser v2.1 - 規則式參數提取[0m
+--------------------------------------------------------------------------
+執行: python3 parser_v2.1.py gaia_level3_tasks.json gaia_function.py
+🚀 Processing 10 tasks with v2.1 fixed extraction...
+
+✅ Generated: parser_output/plans_v2.1.json
+
+📊 Extraction Statistics:
+  Total steps: 137
+  Reasoning steps: 66 (48.2%)
+  Tool steps extracted: 64 (46.7%)
+  With parameters: 64 (100.0%)
+  High confidence (≥2): 63 (98.4%)
+
+⚠️  Target not met. Gap: 33.3% (46 more tools needed)
+
+📈 v2.0 vs v2.1 Comparison:
+  v2.0: 43 tools (31.4%)
+  v2.1: 64 tools (46.7%)
+  Improvement: +21 tools (+15.3%)
+
+🔧 Tool Distribution:
+  web_search: 18
+  web_fetch: 17
+  calculate: 6
+  read_pdf: 4
+  extract_information: 4
+  unit_converter: 4
+  find_in_text: 2
+  compare_values: 2
+  read_json: 1
+  count_occurrences: 1
+  filter_data: 1
+  wikipedia_search: 1
+  read_excel: 1
+  deduplicate_data: 1
+  read_xml: 1
+
+📁 Category Distribution:
+  web: 36 (56.2%)
+  file: 11 (17.2%)
+  calc: 10 (15.6%)
+  data: 4 (6.2%)
+  text: 3 (4.7%)
+[0;32m✅ Parser v2.1 完成 (耗時: 4s)[0m
+  📊 統計:
+     - 解析任務數: 10
+     - 總步驟數: 64
+
+[0;36m[Step 3] Parser v3 - 可執行性驗證[0m
+--------------------------------------------------------------------------
+================================================================================
+開始解析任務...
+================================================================================
+
+✅ gaia_val_l3_000
+   總步驟: 7
+   可執行: 4 (57.1%)
+   跳過: 3
+
+✅ gaia_val_l3_001
+   總步驟: 4
+   可執行: 2 (50.0%)
+   跳過: 2
+
+✅ gaia_val_l3_002
+   總步驟: 2
+   可執行: 2 (100.0%)
+   跳過: 0
+
+✅ gaia_val_l3_003
+   總步驟: 12
+   可執行: 2 (16.7%)
+   跳過: 10
+
+✅ gaia_val_l3_004
+   總步驟: 6
+   可執行: 3 (50.0%)
+   跳過: 3
+
+✅ gaia_val_l3_005
+   總步驟: 12
+   可執行: 8 (66.7%)
+   跳過: 4
+
+✅ gaia_val_l3_006
+   總步驟: 4
+   可執行: 2 (50.0%)
+   跳過: 2
+
+✅ gaia_val_l3_007
+   總步驟: 0
+   可執行: 0 (0.0%)
+   跳過: 0
+
+✅ gaia_val_l3_008
+   總步驟: 1
+   可執行: 1 (100.0%)
+   跳過: 0
+
+✅ gaia_val_l3_009
+   總步驟: 16
+   可執行: 12 (75.0%)
+   跳過: 4
+
+================================================================================
+總統計
+================================================================================
+任務數: 10
+原始步驟數: 64
+可執行步驟數: 36 (56.2%)
+跳過步驟數: 28
+
+✅ 已儲存到: /Users/chengpeici/Desktop/©/Intern Life/Internships/[8] 中研院資創RA (2026 Spring)/Delta_GAIA/parser_output/plans_v3_executable.json
+
+[0;32m✅ Parser v3 完成 (耗時: 0s)[0m
+  📊 統計:
+     - 可執行步驟: 36
+     - 跳過步驟: 28
+     - 可執行率: 56.2%
+
+[0;36m[Step 4] Executor v3 - 順序執行 (全部 10 個任務)[0m
+--------------------------------------------------------------------------
+執行: python3 run_executor_v3.py (自動模式)
+
+================================================================================
+執行任務: gaia_val_l3_000
+問題: In July 2, 1959 United States standards for grades of processed fruits, vegetables, and certain othe...
+可執行步驟數: 4
+================================================================================
+
+  [1/4] web_search: Searched "July 2, 1959 United States standards for grades of processed fruits, v...
+      ✅ 成功
+  [2/4] web_search: Opened a new tab and searched "united states standards for grades of dehydrated ...
+      ✅ 成功
+  [3/4] web_fetch: Opened https://www.ams.usda.gov/grades-standards/dehydrated-apples-grades-and-st...
+      ✅ 成功
+  [4/4] calculate: Calculated the percentage (6 / 7 * 100% = 85.7%)....
+      ✅ 成功
+
+================================================================================
+執行任務: gaia_val_l3_001
+問題: What is the average number of pre-2020 works on the open researcher and contributor identification p...
+可執行步驟數: 2
+================================================================================
+
+  [1/2] read_json: Opened the JSONLD file....
+      ✅ 成功
+  [2/2] calculate: Took the average: (54 + 61 + 1 + 16 + 0) / 5 = 132 / 5 = 26.4....
+      ✅ 成功
+
+================================================================================
+執行任務: gaia_val_l3_002
+問題: Assuming scientists in the famous youtube video The Thinking Machine (Artificial Intelligence in the...
+可執行步驟數: 2
+================================================================================
+
+  [1/2] web_search: Search "The Thinking Machine (Artificial Intelligence in the 1960s)" and open th...
+      ✅ 成功
+  [2/2] web_search: Search for a transcript to confirm, due to struggling to feel confident in my an...
+      ✅ 成功
+
+================================================================================
+執行任務: gaia_val_l3_003
+問題: In the NCATS PubChem compound database for Food Additive Status classification, find the compound th...
+可執行步驟數: 2
+================================================================================
+
+  [1/2] web_search: Searched "NCATS PubChem compound database" on Google....
+      ✅ 成功
+  [2/2] compare_values: Compared the weights to find the heaviest (Midazolam)....
+      ✅ 成功
+
+================================================================================
+執行任務: gaia_val_l3_004
+問題: What integer-rounded percentage of the total length of the harlequin shrimp recorded in Omar Valencf...
+可執行步驟數: 3
+================================================================================
+
+  [1/3] web_search: Searched "Omar Valencfia-Mendez 2017 shrimp paper" on Google....
+      ✅ 成功
+  [2/3] web_search: Searched "G. Curt Fiedler 2002 shrimp paper" on Google....
+      ✅ 成功
+  [3/3] calculate: Took the percentage (1 / 4.5 * 100% = 22.22222%)....
+      ✅ 成功
+
+================================================================================
+執行任務: gaia_val_l3_005
+問題: What animals that were mentioned in both Ilias Lagkouvardos's and Olga Tapia's papers on the alvei s...
+可執行步驟數: 8
+================================================================================
+
+  [1/8] web_search: Searched "alvei copenhagen" on Google....
+      ✅ 成功
+  [2/8] web_fetch: Opened https://en.wikipedia.org/wiki/Hafnia_(bacterium)....
+      ❌ 失敗: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Hafnia_(bacterium
+  [3/8] web_search: Searched "Ilias Lagkouvardos hafnia alvei" on Google....
+      ✅ 成功
+  [4/8] web_fetch: Opened https://www.mdpi.com/2076-2607/11/1/123?type=check_update&version=...
+      ❌ 失敗: 403 Client Error: Forbidden for url: https://www.mdpi.com/2076-2607/11/1/123?type=check_update&version=
+  [5/8] web_search: Searched "Olga Tapia hafnia alvei" on Google....
+      ✅ 成功
+  [6/8] web_fetch: Opened https://pubmed.ncbi.nlm.nih.gov/36080356/....
+      ✅ 成功
+  [7/8] web_search: Searched each animal from the first paper in the second paper....
+      ✅ 成功
+  [8/8] wikipedia_search: Went back to the Wikipedia article....
+      ❌ 失敗: 403 Client Error: Forbidden for url: https://en.wikipedia.org/api/rest_v1/page/summary/each%20animal%20from%20the%20first%20paper
+
+================================================================================
+執行任務: gaia_val_l3_006
+問題: Which of the text elements under CATEGORIES in the XML would contain the one food in the spreadsheet...
+可執行步驟數: 2
+================================================================================
+
+  [1/2] read_excel: Open the spreadsheet....
+      ❌ 失敗: No such keys(s): 'io.excel.zip.reader'
+  [2/2] read_xml: Open the XML....
+      ❌ 失敗: not well-formed (invalid token): line 1, column 2
+
+================================================================================
+執行任務: gaia_val_l3_007
+問題: The following numbers function similarly to ISBN 13 numbers, however, their validation methods are s...
+可執行步驟數: 0
+================================================================================
+
+
+================================================================================
+執行任務: gaia_val_l3_008
+問題: I was trying to remember how well the Cheater Beater performed in comparison to the Cheater when Jam...
+可執行步驟數: 1
+================================================================================
+
+  [1/1] compare_values: Step 1: Using a web browser, navigate to a search engine and conduct a search: "...
+      ✅ 成功
+
+================================================================================
+執行任務: gaia_val_l3_009
+問題: What is the volume in milliliters of a system comprised of 0.312 kg Freon-12 refrigerant when placed...
+可執行步驟數: 12
+================================================================================
+
+  [1/12] web_search: Searched "volume from pressure, temperature, mass" on Google....
+      ✅ 成功
+  [2/12] web_search: Searched "Freon-12" on Google....
+      ✅ 成功
+  [3/12] calculate: Calculated moles: 312 g / 120.91 g/mol = 2.58 mol....
+      ✅ 成功
+  [4/12] web_search: Searched "Marianas Trench pressure" on Google....
+      ✅ 成功
+  [5/12] web_search: Searched "psi to atm" on Google....
+      ✅ 成功
+  [6/12] unit_converter: Converted psi to atm: 15,750 * 0.068046 = 1071.7245 atm....
+      ❌ 失敗: unit_converter() got an unexpected keyword argument 'operation'
+  [7/12] web_search: Searched "Marianas Trench temperature" on Google....
+      ✅ 成功
+  [8/12] web_search: Searched "F to K" on Google....
+      ✅ 成功
+  [9/12] calculate: Converted temperature to K: 39 + 459.67 * 5/9 = 277.039K....
+      ✅ 成功
+  [10/12] web_search: Searched "joules to atm" on Google and noted the conversion of 1 Joule = 0.00986...
+      ✅ 成功
+  [11/12] unit_converter: Converted 8.31446261815324 * 0.0098692326671601 = 0.08205736608096 L-atm/K-mol....
+      ❌ 失敗: unit_converter() got an unexpected keyword argument 'operation'
+  [12/12] unit_converter: Converted to mL: 0.05473 L = 54....
+      ❌ 失敗: unit_converter() got an unexpected keyword argument 'expression'
+
+================================================================================
+執行統計
+================================================================================
+
+任務統計:
+  執行任務數: 10
+  總工具呼叫: 36
+  成功呼叫數: 28
+  成功率: 77.8%
+
+各任務詳細結果:
+  gaia_val_l3_000: 4/4 (100.0%)
+  gaia_val_l3_001: 2/2 (100.0%)
+  gaia_val_l3_002: 2/2 (100.0%)
+  gaia_val_l3_003: 2/2 (100.0%)
+  gaia_val_l3_004: 3/3 (100.0%)
+  gaia_val_l3_005: 5/8 (62.5%)
+  gaia_val_l3_006: 0/2 (0.0%)
+  gaia_val_l3_007: 0/0 (0.0%)
+  gaia_val_l3_008: 1/1 (100.0%)
+  gaia_val_l3_009: 9/12 (75.0%)
+
+✅ 執行結果已儲存至: /Users/chengpeici/Desktop/©/Intern Life/Internships/[8] 中研院資創RA (2026 Spring)/Delta_GAIA/parser_output/execution_results.json
+[0;32m✅ Executor v3 完成 (耗時: 55s)[0m
+  📊 統計:
+     - 執行任務數: 10
+     - 總工具呼叫: 36
+     - 成功呼叫數: 28
+     - 成功率: 77.8%
+
+[0;36m[Step 5] Answer Validator - 答案驗證[0m
+--------------------------------------------------------------------------
+執行: python3 answer_validator.py
+================================================================================
+📊 答案驗證結果
+================================================================================
+
+================================================================================
+任務: gaia_val_l3_000
+標準答案: 86
+================================================================================
+答案類型: integer
+預測答案: 85.71428571428571
+驗證狀態: incorrect
+❌ 答案錯誤
+
+================================================================================
+任務: gaia_val_l3_001
+標準答案: 26.4
+================================================================================
+答案類型: float
+預測答案: 26.4
+驗證狀態: correct
+✅ 答案正確
+
+================================================================================
+任務: gaia_val_l3_002
+標準答案: Claude Shannon
+================================================================================
+答案類型: text
+預測答案: N/A
+驗證狀態: unknown
+⚠️  需要人工驗證
+
+================================================================================
+任務: gaia_val_l3_003
+標準答案: 4192
+================================================================================
+答案類型: integer
+預測答案: N/A
+驗證狀態: unknown
+⚠️  需要人工驗證
+
+================================================================================
+任務: gaia_val_l3_004
+標準答案: 22
+================================================================================
+答案類型: integer
+預測答案: 22.22222222222222
+驗證狀態: correct
+✅ 答案正確
+
+================================================================================
+任務: gaia_val_l3_005
+標準答案: mice
+================================================================================
+答案類型: text
+預測答案: N/A
+驗證狀態: unknown
+⚠️  需要人工驗證
+
+================================================================================
+任務: gaia_val_l3_006
+標準答案: Soups and Stews
+================================================================================
+答案類型: text
+預測答案: N/A
+驗證狀態: unknown
+⚠️  需要人工驗證
+
+================================================================================
+任務: gaia_val_l3_007
+標準答案: 7, 9
+================================================================================
+答案類型: text
+預測答案: N/A
+驗證狀態: unknown
+⚠️  需要人工驗證
+
+================================================================================
+任務: gaia_val_l3_008
+標準答案: 101.376, 84.348
+================================================================================
+答案類型: text
+預測答案: N/A
+驗證狀態: unknown
+⚠️  需要人工驗證
+
+================================================================================
+任務: gaia_val_l3_009
+標準答案: 55
+================================================================================
+答案類型: integer
+預測答案: N/A
+驗證狀態: unknown
+⚠️  需要人工驗證
+
+================================================================================
+📈 整體統計
+================================================================================
+
+答案驗證:
+  正確: 2/10 (20.0%)
+  錯誤: 1/10
+  未知: 7/10
+
+✅ 驗證結果已儲存至: /Users/chengpeici/Desktop/©/Intern Life/Internships/[8] 中研院資創RA (2026 Spring)/Delta_GAIA/parser_output/validation_results.json
+[0;32m✅ Answer Validator 完成 (耗時: 0s)[0m
+  📊 統計:
+     - 正確答案: 2/10
+     - 錯誤答案: 1/10
+     - 需人工驗證: 7/10
+
+==========================================================================
+  🎉 全流程執行完成！
+  結束時間: 2026-02-02 16:14:02
+==========================================================================
+
+[0;36m📊 最終統計總結[0m
+--------------------------------------------------------------------------
+
+【Step 2: Parser v2.1】
+  - 解析任務數: 10
+  - 總步驟數: 64
+  - 耗時: 4s
+
+【Step 3: Parser v3】
+  - 可執行步驟: 36
+  - 跳過步驟: 28
+  - 可執行率: 56.2%
+  - 耗時: 0s
+
+【Step 4: Executor v3】
+  - 執行任務數: 10
+  - 總工具呼叫: 36
+  - 成功呼叫數: 28
+  - 成功率: 77.8%
+  - 耗時: 55s
+
+【Step 5: Answer Validator】
+  - 正確答案: 2/10
+  - 錯誤答案: 1/10
+  - 需人工驗證: 7/10
+  - 準確率: 20.0%
+  - 耗時: 0s
+
+【總耗時】
+  59s (0m 59s)
+
+--------------------------------------------------------------------------
+[0;32m✅ 所有輸出檔案位於: parser_output/[0m
+  - plans_v2.1.json
+  - plans_v3_executable.json
+  - execution_results.json
+  - validation_results.json
+  - pipeline_stats.json
+  - pipeline_log.txt
+
+[0;36m💡 下一步建議：[0m
+  1. 查看 parser_output/pipeline_log.txt 了解詳細執行過程
+  2. 分析 validation_results.json 找出答案錯誤的原因
+  3. 檢查 execution_results.json 中失敗的工具呼叫
+
+==========================================================================

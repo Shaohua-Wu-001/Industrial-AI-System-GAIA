@@ -1,0 +1,48 @@
+{
+  "total_issues": 27,
+  "issues_by_category": {
+    "schema": 0,
+    "integration": 10,
+    "parser": 15,
+    "answer_extraction": 1,
+    "executability": 1
+  },
+  "detailed_issues": {
+    "schema": [],
+    "integration": [
+      "gaia_val_l3_000: 步驟數異常膨脹（14 → 1517）",
+      "gaia_val_l3_001: 步驟數異常膨脹（4 → 153）",
+      "gaia_val_l3_002: 步驟數異常膨脹（5 → 342）",
+      "gaia_val_l3_003: 步驟數異常膨脹（14 → 838）",
+      "gaia_val_l3_004: 步驟數異常膨脹（9 → 743）",
+      "gaia_val_l3_005: 步驟數異常膨脹（14 → 896）",
+      "gaia_val_l3_006: 步驟數異常膨脹（7 → 400）",
+      "gaia_val_l3_007: 步驟數異常膨脹（32 → 8491）",
+      "gaia_val_l3_008: 步驟數異常膨脹（17 → 1804）",
+      "gaia_val_l3_009: 步驟數異常膨脹（24 → 1549）"
+    ],
+    "parser": [
+      "gaia_val_l3_000: 步驟 step_1513 只有單個字符：'8'",
+      "gaia_val_l3_000: 步驟 step_1514 只有單個字符：'6'",
+      "gaia_val_l3_000: 步驟 step_1515 只有單個字符：'%'",
+      "gaia_val_l3_000: 步驟 step_1516 只有單個字符：')'",
+      "gaia_val_l3_000: 步驟 step_1517 只有單個字符：'.'",
+      "gaia_val_l3_001: 步驟 step_149 只有單個字符：'2'",
+      "gaia_val_l3_001: 步驟 step_150 只有單個字符：'6'",
+      "gaia_val_l3_001: 步驟 step_151 只有單個字符：'.'",
+      "gaia_val_l3_001: 步驟 step_152 只有單個字符：'4'",
+      "gaia_val_l3_001: 步驟 step_153 只有單個字符：'.'",
+      "gaia_val_l3_002: 步驟 step_338 只有單個字符：'n'",
+      "gaia_val_l3_002: 步驟 step_339 只有單個字符：'e'",
+      "gaia_val_l3_002: 步驟 step_340 只有單個字符：'s'",
+      "gaia_val_l3_002: 步驟 step_341 只有單個字符：'t'",
+      "gaia_val_l3_002: 步驟 step_342 只有單個字符：'.'"
+    ],
+    "answer_extraction": [
+      "答案驗證結果不一致：原始 1 題正確，新驗證 0 題正確"
+    ],
+    "executability": [
+      "僅 82/109 題可能可執行 (<80%)"
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "tool_coverage": {
+    "total_tools": 51,
+    "used_tools": 4,
+    "coverage_rate": 0.0784313725490196,
+    "unused_tools": [
+      "wikipedia_search",
+      "create_csv",
+      "read_docx",
+      "analyze_image",
+      "encode_decode",
+      "sort_data",
+      "date_calculator",
+      "count_occurrences",
+      "moving_average",
+      "zip_extractor",
+      "compare_values",
+      "regex_search",
+      "aggregate_data",
+      "correlation_analysis",
+      "download_file",
+      "video_analysis",
+      "extract_information",
+      "list_operations",
+      "read_csv",
+      "pdf_reader",
+      "filter_data",
+      "image_to_text",
+      "deduplicate_data",
+      "join_data",
+      "validate_data",
+      "excel_reader",
+      "create_markdown",
+      "pptx_reader",
+      "string_transform",
+      "statistical_analysis",
+      "compare_data",
+      "read_image",
+      "pivot_table",
+      "web_fetch",
+      "audio_transcription",
+      "read_xml",
+      "file_reader",
+      "currency_converter",
+      "fill_missing",
+      "geocoding",
+      "code_interpreter",
+      "sample_data",
+      "image_recognition",
+      "split_join_text",
+      "find_in_text",
+      "read_json",
+      "unit_converter"
+    ],
+    "tool_usage": {
+      "web_browser": 223,
+      "web_search": 163,
+      "calculator": 33,
+      "python_executor": 7
+    },
+    "category_coverage": {
+      "search": {
+        "total": 2,
+        "used": 1,
+        "coverage": 0.5
+      },
+      "fetch": {
+        "total": 3,
+        "used": 1,
+        "coverage": 0.3333333333333333
+      },
+      "read": {
+        "total": 5,
+        "used": 0,
+        "coverage": 0.0
+      },
+      "data": {
+        "total": 13,
+        "used": 0,
+        "coverage": 0.0
+      },
+      "compute": {
+        "total": 4,
+        "used": 2,
+        "coverage": 0.5
+      },
+      "text": {
+        "total": 7,
+        "used": 0,
+        "coverage": 0.0
+      },
+      "other": {
+        "total": 21,
+        "used": 0,
+        "coverage": 0.0
+      }
+    }
+  },
+  "answer_correctness": {
+    "total": 10,
+    "correct": 1,
+    "incorrect": 2,
+    "not_executed": 7,
+    "overall_rate": 0.1,
+    "executed_rate": 0.3333333333333333,
+    "level_stats": {
+      "3": {
+        "total": 10,
+        "correct": 1,
+        "incorrect": 2,
+        "not_executed": 7
+      }
+    }
+  },
+  "parameter_completeness": {
+    "web_search": {
+      "total_calls": 163,
+      "params_used": {
+        "query": 163
+      }
+    },
+    "web_browser": {
+      "total_calls": 223,
+      "params_used": {
+        "url": 223
+      }
+    },
+    "calculator": {
+      "total_calls": 33,
+      "params_used": {
+        "expression": 33
+      }
+    },
+    "python_executor": {
+      "total_calls": 7,
+      "params_used": {
+        "code": 7
+      }
+    }
+  }
+}

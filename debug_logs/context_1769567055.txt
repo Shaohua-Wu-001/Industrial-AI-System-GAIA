@@ -1,0 +1,41 @@
+TASK: Assuming scientists in the famous youtube video The Thinking Machine (Artificial Intelligence in the 1960s) were interviewed the same year, what is the name of the scientist predicting the sooner thinking machines or robots? Answer using the format First name Last name
+
+================================================================================
+
+
+
+================================================================================Step 1 [web_search]:
+Found 5 results. Top 5:
+  1. The Thinking Machine (Artificial Intelligence in the 1960s)
+     Can machines really think? Here is a series of interviews to some of the AI pioneers, Jerome Wiesner, Oliver Selfridge, and Claude Shannon.
+     URL: https://www.youtube.com/watch?v=aygSMgK3BEM
+  2. The Thinking Machine 1961 Documentary (full)
+     The Future of AI in 1961? A Look Back at MIT's Vision of Thinking Machines This rare episode of CBS's Tomorrow series, ...
+     URL: https://www.youtube.com/watch?v=s7Apsqv0CpI
+  3. "The Thinking Machine" (1961) - MIT Centennial Film
+     Screen actor David Wayne chats with MIT Professor Jerome Wiesner on developments in computer research and artificial intelligence.
+     URL: https://techtv.mit.edu/videos/10268-the-thinking-machine-1961---mit-centennial-film
+  4. "The Thinking Machine" (1961) - MIT AI Documentary
+     First look at the Thinking Machines in 'Dune Prophecy' They were part of the AI and robots who enslaved humanity — leading to a rebellion which ...
+     URL: https://www.reddit.com/r/compsci/comments/bnnd2z/the_thinking_machine_1961_mit_ai_documentary/
+  5. The Thinking Machine (Artificial Intelligence in the 1960s)
+     A cute 1960s clip on "The Thinking Machine" and how AI would transform the world. Olly Selfridge, Claude Shannon and Jerome B. Wiesner.
+     URL: https://www.linkedin.com/posts/barryosullivan_the-thinking-machine-artificial-intelligence-activity-7344345361622155264-S_O7
+
+Step 2 [web_search]:
+Found 5 results. Top 5:
+  1. Get your tax records and transcripts
+     You can also request a transcript be mailed to you by calling our automated phone transcript service at 800-908-9946. For more information, ...
+     URL: https://www.irs.gov/individuals/get-transcript
+  2. Parchment: Secure & Reliable End-To-End Credentials Support
+     Parchment helps learners, academic institutions, and employers request, verify, and receive transcripts, diplomas, and other credentials through a comprehensive ...
+     URL: https://www.parchment.com/
+  3. National Student Clearinghouse Transcript Services
+     Select School Enter the school you want to request your transcript from Advanced Keyword Search Continue National Student Clearinghouse
+     URL: https://tsorder.studentclearinghouse.org/
+  4. TRANSCRIPT Definition & Meaning
+     1. a : a written, printed, or typed copy; especially : a usually typed copy of dictated or recorded material.
+     URL: https://www.merriam-webster.com/dictionary/transcript
+  5. Transcript | AI Study Tools
+     Unlock your potential with Transcript, the all-in-one AI-powered learning platform. Get instant answers, deep insights, and personalized help for any ...
+     URL: https://transcript.study/

@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "total_tasks": 109,
+    "level_distribution": {
+      "2": 50,
+      "1": 38,
+      "3": 11,
+      "3": 10
+    },
+    "total_steps": 17661,
+    "avg_steps_per_task": 162.0275229357798,
+    "total_validated_steps": 426,
+    "total_valid_steps": 426,
+    "overall_validation_rate": 1.0
+  },
+  "tool_usage": {
+    "None": 17235,
+    "web_fetch": 223,
+    "web_search": 163,
+    "calculate": 40
+  },
+  "param_usage": {
+    "web_fetch.url": 223,
+    "web_search.query": 163,
+    "calculate.expression": 40
+  },
+  "validation_summary": {
+    "tasks_with_100%_valid": 82,
+    "tasks_with_errors": 27
+  }
+}

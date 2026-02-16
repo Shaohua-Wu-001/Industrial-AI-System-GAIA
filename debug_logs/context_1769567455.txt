@@ -1,0 +1,27 @@
+TASK: In the NCATS PubChem compound database for Food Additive Status classification, find the compound that has a molecular weight of 100 g/mol or less, 6 heavy atoms, 1 or fewer hydrogen bond acceptors, and a complexity between 10 and 15. Of the shared gene-chemical co-occurrences between its two possible enzyme transformations, what is the PubChem CID of the heaviest by molecular weight?
+
+================================================================================
+
+
+
+================================================================================Step 1 [web_search]:
+Found 5 results. Top 5:
+  1. PubChem - NIH
+     PubChem is the world's largest collection of freely accessible chemical information. Search chemicals by name, molecular formula, structure, and other ...
+     URL: https://pubchem.ncbi.nlm.nih.gov/
+  2. PubChem Substance and Compound databases - PMC
+     by S Kim · 2015 · Cited by 6218 — PubChem (https://pubchem.ncbi.nlm.nih.gov) (1–6) is a public repository for information on chemical substances and their biological activities.
+     URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC4702940/
+  3. Compound Management
+     NCATS has assembled the Genesis collection to provide a novel modern chemical library that emphasizes high-quality chemical starting points and ...
+     URL: http://ncats.nih.gov/research/research-activities/compound-management
+  4. PubChem Compound - Dataset - Catalog - Data.gov
+     The PubChem Compound Database contains validated chemical depiction information provided to describe substances in PubChem Substance.
+     URL: https://catalog.data.gov/dataset/pubchem-13cb9/resource/a64b9b93-855b-4101-ba4f-38baaf33b9a1
+  5. PubChem
+     PubChem is a database of chemical molecules and their activities against biological assays. The system is maintained by the National Center for Biotechnology ...
+     URL: https://en.wikipedia.org/wiki/PubChem
+
+Step 2 [compare_values]:
+Comparison result: False
+Comparison type: equal

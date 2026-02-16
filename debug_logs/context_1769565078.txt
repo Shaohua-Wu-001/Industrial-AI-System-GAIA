@@ -1,0 +1,183 @@
+TASK: Which of the text elements under CATEGORIES in the XML would contain the one food in the spreadsheet that does not appear a second time under a different name?
+
+================================================================================
+
+
+
+================================================================================Step 1 [read_excel]:
+Excel: 10 rows × 9 columns
+Columns: clam, sandwich, dried cranberries, pop, foie gras, pigeon, hoagie, craisins, cow meat
+
+All data:
+[
+  {
+    "clam": "crawdad",
+    "sandwich": "hot wings",
+    "dried cranberries": "zucchini",
+    "pop": "courgette",
+    "foie gras": "cilantro",
+    "pigeon": "cottage cheese",
+    "hoagie": "peas",
+    "craisins": "aubergine",
+    "cow meat": "nectar"
+  },
+  {
+    "clam": "geoduck",
+    "sandwich": "rasher",
+    "dried cranberries": "lizardfish",
+    "pop": "hand pies",
+    "foie gras": "capsicum",
+    "pigeon": "coriander",
+    "hoagie": "alligator pear",
+    "craisins": "squab",
+    "cow meat": "chickpea"
+  },
+  {
+    "clam": "pumpkin",
+    "sandwich": "agave",
+    "dried cranberries": "shish kebab",
+    "pop": "fries",
+    "foie gras": "goat meat",
+    "pigeon": "fleur de sel",
+    "hoagie": "kraft dinner",
+    "craisins": "bacon strip",
+    "cow meat": "pickle"
+  },
+  {
+    "clam": "bonbon",
+    "sandwich": "golden raisin",
+    "dried cranberries": "confectioner's sugar",
+    "pop": "java",
+    "foie gras": "candy floss",
+    "pigeon": "rapini",
+    "hoagie": "turtle soup",
+    "craisins": "icing sugar",
+    "cow meat": "buffalo wings"
+  },
+  {
+    "clam": "tofu",
+    "sandwich": "mac and cheese",
+    "dried cranberries": "deer meat",
+    "pop": "fairy cake",
+    "foie gras": "pancake",
+    "pigeon": "jam doughnut",
+    "hoagie": "sultana",
+    "craisins": "puffed rice",
+    "cow meat": "avocado"
+  },
+  {
+    "clam": "flapjack",
+    "sandwich": "boba",
+    "dried cranberries": "tripe",
+    "pop": "tapioca",
+    "foie gras": "bombay duck",
+    "pigeon": "arugula",
+    "hoagie": "capellini",
+    "craisins": "sweetbread",
+    "cow meat": "rocket"
+  },
+  {
+    "clam": "venison",
+    "sandwich": "fatty goose liver",
+    "dried cranberries": "calf meat",
+    "pop": "chips",
+    "foie gras": "beef",
+    "pigeon": "rice krispies",
+    "hoagie": "veal",
+    "craisins": "beetroot",
+    "cow meat": "farmer's cheese"
+  },
+  {
+    "clam": "soda",
+    "sandwich": "angel hair pasta",
+    "dried cranberries": "cotton candy",
+    "pop": "squash",
+    "foie gras": "congee",
+    "pigeon": "salt",
+    "hoagie": "eggplant",
+    "craisins": "rice porridge",
+    "cow meat": "oat cereal"
+  },
+  {
+    "clam": "calf thymus",
+    "sandwich": "jelly donut",
+    "dried cranberries": "skewer",
+    "pop": "mudbug",
+    "foie gras": "candy",
+    "pigeon": "coffee",
+    "hoagie": "soy curds",
+    "craisins": "beet",
+    "cow meat": "stomach"
+  },
+  {
+    "clam": "bell pepper",
+    "sandwich": "garbanzo bean",
+    "dried cranberries": "granola",
+    "pop": "broccoli rabe",
+    "foie gras": "mutton",
+    "pigeon": "pasties",
+    "hoagie": "cupcake",
+    "craisins": "relish",
+    "cow meat": "sugar snaps"
+  }
+]
+
+Step 2 [read_xml]:
+XML loaded (root: {http://schemas.microsoft.com/office/word/2003/wordml}wordDocument)
+
+XML structure:
+{
+  "{http://schemas.microsoft.com/office/word/2003/wordml}wordDocument": {
+    "@attributes": {
+      "{http://schemas.microsoft.com/office/word/2003/wordml}macrosPresent": "no",
+      "{http://schemas.microsoft.com/office/word/2003/wordml}embeddedObjPresent": "no",
+      "{http://schemas.microsoft.com/office/word/2003/wordml}ocxPresent": "no",
+      "{http://www.w3.org/XML/1998/namespace}space": "preserve"
+    },
+    "{http://schemas.microsoft.com/office/word/2003/wordml}ignoreSubtree": {
+      "@attributes": {
+        "{http://schemas.microsoft.com/office/word/2003/wordml}val": "http://schemas.microsoft.com/office/word/2003/wordml/sp2"
+      }
+    },
+    "{urn:schemas-microsoft-com:office:office}DocumentProperties": {
+      "{urn:schemas-microsoft-com:office:office}Author": "Codemaster K",
+      "{urn:schemas-microsoft-com:office:office}LastAuthor": "Codemaster K",
+      "{urn:schemas-microsoft-com:office:office}Revision": "1",
+      "{urn:schemas-microsoft-com:office:office}TotalTime": "1",
+      "{urn:schemas-microsoft-com:office:office}Created": "2023-07-20T01:34:00Z",
+      "{urn:schemas-microsoft-com:office:office}LastSaved": "2023-07-20T01:35:00Z",
+      "{urn:schemas-microsoft-com:office:office}Pages": "1",
+      "{urn:schemas-microsoft-com:office:office}Words": "20",
+      "{urn:schemas-microsoft-com:office:office}Characters": "117",
+      "{urn:schemas-microsoft-com:office:office}Lines": "1",
+      "{urn:schemas-microsoft-com:office:office}Paragraphs": "1",
+      "{urn:schemas-microsoft-com:office:office}CharactersWithSpaces": "136",
+      "{urn:schemas-microsoft-com:office:office}Version": "16"
+    },
+    "{http://schemas.microsoft.com/office/word/2003/wordml}fonts": {
+      "{http://schemas.microsoft.com/office/word/2003/wordml}defaultFonts": {
+        "@attributes": {
+          "{http://schemas.microsoft.com/office/word/2003/wordml}ascii": "Calibri",
+          "{http://schemas.microsoft.com/office/word/2003/wordml}fareast": "Calibri",
+          "{http://schemas.microsoft.com/office/word/2003/wordml}h-ansi": "Calibri",
+          "{http://schemas.microsoft.com/office/word/2003/wordml}cs": "Times New Roman"
+        }
+      },
+      "{http://schemas.microsoft.com/office/word/2003/wordml}font": [
+        {
+          "@attributes": {
+            "{http://schemas.microsoft.com/office/word/2003/wordml}name": "Times New Roman"
+          },
+          "{http://schemas.microsoft.com/office/word/2003/wordml}panose-1": {
+            "@attributes": {
+              "{http://schemas.microsoft.com/office/word/2003/wordml}val": "02020603050405020304"
+            }
+          },
+          "{http://schemas.microsoft.com/office/word/2003/wordml}charset": {
+            "@attributes": {
+              "{http://schemas.microsoft.com/office/word/2003/wordml}val": "00"
+            }
+          },
+          "{http://schemas.microsoft.com/office/word/2003/wordml}family": {
+            "@attributes": {
+              "{http://schemas.microsoft.com/office/word/2003/

@@ -1,0 +1,17 @@
+{
+  "web_search": {
+    "max_results": "num_results"
+  },
+  "pdf_reader": {
+    "page": "page_numbers"
+  },
+  "excel_reader": {
+    "sheet": "sheet_name"
+  },
+  "calculator": {
+    "expression": "expression"
+  },
+  "python_executor": {
+    "code": "code"
+  }
+}

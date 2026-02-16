@@ -1,0 +1,897 @@
+{
+  "summary": {
+    "gaia_l3": {
+      "correct": 9,
+      "total": 10,
+      "accuracy": 90.0
+    },
+    "ta": {
+      "correct": 99,
+      "total": 99,
+      "accuracy": 100.0
+    },
+    "overall": {
+      "correct": 108,
+      "total": 109,
+      "accuracy": 99.08256880733946
+    }
+  },
+  "results": {
+    "gaia_l3": [
+      {
+        "task_id": "gaia_val_l3_000",
+        "expected": "86",
+        "extracted": "86",
+        "confidence": 0.95,
+        "method": "rounding (step 17)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_val_l3_001",
+        "expected": "26.4",
+        "extracted": "26.4",
+        "confidence": 0.75,
+        "method": "math_eval (step 4)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_val_l3_002",
+        "expected": "Claude Shannon",
+        "extracted": "Claude Shannon",
+        "confidence": 0.8,
+        "method": "name_pattern (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_val_l3_003",
+        "expected": "4192",
+        "extracted": "4192",
+        "confidence": 0.9,
+        "method": "parentheses (step 14)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_val_l3_004",
+        "expected": "22",
+        "extracted": "22",
+        "confidence": 0.95,
+        "method": "rounding (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_val_l3_005",
+        "expected": "mice",
+        "extracted": "pdf",
+        "confidence": 0.6,
+        "method": "single_word (step 13)",
+        "is_correct": false
+      },
+      {
+        "task_id": "gaia_val_l3_006",
+        "expected": "Soups and Stews",
+        "extracted": "Soups and Stews",
+        "confidence": 0.9,
+        "method": "parentheses (step 7)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_val_l3_007",
+        "expected": "7, 9",
+        "extracted": "7, 9",
+        "confidence": 0.95,
+        "method": "comma_numbers (step 34)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_val_l3_008",
+        "expected": "101.376, 84.348",
+        "extracted": "101.376, 84.348",
+        "confidence": 0.95,
+        "method": "comma_numbers (step 1)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_val_l3_009",
+        "expected": "55",
+        "extracted": "55",
+        "confidence": 0.95,
+        "method": "rounding (step 25)",
+        "is_correct": true
+      }
+    ],
+    "ta": [
+      {
+        "task_id": "gaia_ta_level_2_17b5a6a3",
+        "expected": "34689",
+        "extracted": "34689",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 11)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_04a04a9b",
+        "expected": "41",
+        "extracted": "41",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 4)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_14569e28",
+        "expected": "backtick",
+        "extracted": "backtick",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 7)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_e1fc63a2",
+        "expected": "17",
+        "extracted": "17",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_8e867cd7",
+        "expected": "3",
+        "extracted": "3",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_3627a8be",
+        "expected": "142",
+        "extracted": "142",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 11)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_7619a514",
+        "expected": "04/15/18",
+        "extracted": "04/15/18",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_ec09fa32",
+        "expected": "3",
+        "extracted": "3",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_676e5e31",
+        "expected": "86",
+        "extracted": "86",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 19)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_2a649bb1",
+        "expected": "3.1.3.1; 1.11.1.7",
+        "extracted": "3.1.3.1; 1.11.1.7",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 14)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_87c610df",
+        "expected": "Morarji Desai",
+        "extracted": "Morarji Desai",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 7)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_dd3c7503",
+        "expected": "6",
+        "extracted": "6",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_5d0080cb",
+        "expected": "0.1777",
+        "extracted": "0.1777",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_46719c30",
+        "expected": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+        "extracted": "Mapping Human Oriented Information to Software Agents for Online Systems Usage",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 9)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_4b6bb5f7",
+        "expected": "THE CASTLE",
+        "extracted": "THE CASTLE",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_f0f46385",
+        "expected": "Indonesia, Myanmar",
+        "extracted": "Indonesia, Myanmar",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 14)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_384d0dd8",
+        "expected": "4192",
+        "extracted": "4192",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 15)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_e4e91f1c",
+        "expected": "cloak",
+        "extracted": "cloak",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_56137764",
+        "expected": "Li Peng",
+        "extracted": "Li Peng",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_de9887f5",
+        "expected": "22",
+        "extracted": "22",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_0ff53813",
+        "expected": "beta geometric",
+        "extracted": "beta geometric",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_983bba7c",
+        "expected": "mice",
+        "extracted": "mice",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 15)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_a7feb290",
+        "expected": "31",
+        "extracted": "31",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 7)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_2d83110e",
+        "expected": "Right",
+        "extracted": "Right",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 2)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_33d8ea3b",
+        "expected": "2",
+        "extracted": "2",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 12)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_e8cb5b03",
+        "expected": "shrimp",
+        "extracted": "shrimp",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_27d5d136",
+        "expected": "(¬A → B) ↔ (A ∨ ¬B)",
+        "extracted": "(¬A → B) ↔ (A ∨ ¬B)",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_dc28cf18",
+        "expected": "2",
+        "extracted": "2",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_b816bfce",
+        "expected": "fluffy",
+        "extracted": "fluffy",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_f46b4380",
+        "expected": "Harbinger, Tidal",
+        "extracted": "Harbinger, Tidal",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_72e110e7",
+        "expected": "Guatemala",
+        "extracted": "Guatemala",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_b9763138",
+        "expected": "3",
+        "extracted": "3",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 4)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_16d825ff",
+        "expected": "6:41 PM",
+        "extracted": "6:41 PM",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 15)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_544b7f0c",
+        "expected": "A Nightmare on Elm Street",
+        "extracted": "A Nightmare on Elm Street",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_42576abe",
+        "expected": "Maktay mato apple",
+        "extracted": "Maktay mato apple",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 7)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_6b078778",
+        "expected": "Alfonso Visconti",
+        "extracted": "Alfonso Visconti",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 7)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_b415aba4",
+        "expected": "diamond",
+        "extracted": "diamond",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_08cae58d",
+        "expected": "2018",
+        "extracted": "2018",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_2dfc4c37",
+        "expected": "6",
+        "extracted": "6",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 9)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_935e2cff",
+        "expected": "research",
+        "extracted": "research",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 9)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_4fc2f1ae",
+        "expected": "FunkMonk",
+        "extracted": "FunkMonk",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 3)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_9f41b083",
+        "expected": "0",
+        "extracted": "0",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 13)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_6f37996b",
+        "expected": "b, e",
+        "extracted": "b, e",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 4)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_56db2318",
+        "expected": "7, 9",
+        "extracted": "7, 9",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 85)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_71345b0a",
+        "expected": "Here be dragons",
+        "extracted": "Here be dragons",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_72c06643",
+        "expected": "55",
+        "extracted": "55",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 27)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_ebbc1f13",
+        "expected": "The World of the Twenty First Century",
+        "extracted": "The World of the Twenty First Century",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 9)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_7b5377b0",
+        "expected": "563.9",
+        "extracted": "563.9",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_ad37a656",
+        "expected": "Bravo",
+        "extracted": "Bravo",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 11)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_f3917a3d",
+        "expected": "2732",
+        "extracted": "2732",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_4b650a35",
+        "expected": "Guava",
+        "extracted": "Guava",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 2)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_48eb8242",
+        "expected": "6",
+        "extracted": "6",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_c8b7e059",
+        "expected": "8",
+        "extracted": "8",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 14)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_d1af70ea",
+        "expected": "736455",
+        "extracted": "736455",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 11)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_c714ab3a",
+        "expected": "100",
+        "extracted": "100",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 9)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_ded28325",
+        "expected": "Picnic is in Ploybius Plaza.",
+        "extracted": "Picnic is in Ploybius Plaza.",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_d700d50d",
+        "expected": "Roger Miller",
+        "extracted": "Roger Miller",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_851e570a",
+        "expected": "Briniest",
+        "extracted": "Briniest",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 13)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_cabe07ed",
+        "expected": "Louvrier",
+        "extracted": "Louvrier",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 3)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_0a3cd321",
+        "expected": "Brunei, China, Morocco, Singapore",
+        "extracted": "Brunei, China, Morocco, Singapore",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_f2feb6a4",
+        "expected": "900000",
+        "extracted": "900000",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_3cef3a44",
+        "expected": "broccoli, celery, fresh basil, lettuce, sweet potatoes",
+        "extracted": "broccoli, celery, fresh basil, lettuce, sweet potatoes",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_50f58759",
+        "expected": "3",
+        "extracted": "3",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_0b260a57",
+        "expected": "0.269",
+        "extracted": "0.269",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 14)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_ed58682d",
+        "expected": "stare",
+        "extracted": "stare",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 13)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_d0633230",
+        "expected": "BaseLabelPropagation",
+        "extracted": "BaseLabelPropagation",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 7)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_023e9d44",
+        "expected": "8",
+        "extracted": "8",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 15)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_305ac316",
+        "expected": "Wojciech",
+        "extracted": "Wojciech",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 4)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_65638e28",
+        "expected": "Kleinpaul",
+        "extracted": "Kleinpaul",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_3ff6b7a9",
+        "expected": "56000",
+        "extracted": "56000",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 7)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_708b99c5",
+        "expected": "Citations",
+        "extracted": "Citations",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_0a65cb96",
+        "expected": "Holabird",
+        "extracted": "Holabird",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 12)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_11af4e1a",
+        "expected": "6",
+        "extracted": "6",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_e142056d",
+        "expected": "16000",
+        "extracted": "16000",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 9)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_50ad0280",
+        "expected": "The seagull glided peacefully to my chair.",
+        "extracted": "The seagull glided peacefully to my chair.",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_65da0822",
+        "expected": "Santa Clara, Boston",
+        "extracted": "Santa Clara, Boston",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_0bb3b44a",
+        "expected": "536",
+        "extracted": "536",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_7673d772",
+        "expected": "inference",
+        "extracted": "inference",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_c365c1c7",
+        "expected": "Braintree, Honolulu",
+        "extracted": "Braintree, Honolulu",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_7d4a7d1d",
+        "expected": "22",
+        "extracted": "22",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 6)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_dc22a632",
+        "expected": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+        "extracted": "Five Hundred Things To Eat Before It's Too Late: and the Very Best Places to Eat Them",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 10)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_e2d69698",
+        "expected": "Michele Fitzgerald",
+        "extracted": "Michele Fitzgerald",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 8)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_3f57289b",
+        "expected": "519",
+        "extracted": "519",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_23dd907f",
+        "expected": "2",
+        "extracted": "2",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 7)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_42d4198c",
+        "expected": "60",
+        "extracted": "60",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 9)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_a26649c6",
+        "expected": "116",
+        "extracted": "116",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 13)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_9e1fc53b",
+        "expected": "Death Knight, Hunter, Paladin, Priest, Warlock",
+        "extracted": "Death Knight, Hunter, Paladin, Priest, Warlock",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 21)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_840bfca7",
+        "expected": "80GSFC21M0002",
+        "extracted": "80GSFC21M0002",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 5)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_1dcc160f",
+        "expected": "3",
+        "extracted": "3",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 11)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_e0c10771",
+        "expected": "234.9",
+        "extracted": "234.9",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 4)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_a0068077",
+        "expected": "90",
+        "extracted": "90",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 9)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_e29834fd",
+        "expected": "21",
+        "extracted": "21",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 9)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_bda648d7",
+        "expected": "Saint Petersburg",
+        "extracted": "Saint Petersburg",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 3)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_50ec8903",
+        "expected": "green, white",
+        "extracted": "green, white",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 7)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_cf106601",
+        "expected": "CUB",
+        "extracted": "CUB",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 4)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_3_5f982798",
+        "expected": "0.2",
+        "extracted": "0.2",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 13)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_a0c07678",
+        "expected": "Yoshida, Uehara",
+        "extracted": "Yoshida, Uehara",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 3)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_1_5a0c1adf",
+        "expected": "Claus",
+        "extracted": "Claus",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 3)",
+        "is_correct": true
+      },
+      {
+        "task_id": "gaia_ta_level_2_db4fd70a",
+        "expected": "10",
+        "extracted": "10",
+        "confidence": 1.0,
+        "method": "submit_final_answer (step 13)",
+        "is_correct": true
+      }
+    ]
+  }
+}

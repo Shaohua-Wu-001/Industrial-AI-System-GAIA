@@ -1,0 +1,591 @@
+TASK: What animals that were mentioned in both Ilias Lagkouvardos's and Olga Tapia's papers on the alvei species of the genus named for Copenhagen outside the bibliographies were also present in the 2021 article cited on the alvei species' Wikipedia page about a multicenter, randomized, double-blind study?
+
+================================================================================
+
+
+
+================================================================================Step 1 [web_search]:
+Found 5 results. Top 5:
+  1. Hafnia (bacterium)
+     The name comes from Hafnia, the Latin name for Copenhagen. Hafnia alvei is used as a lactic ferment by the dairy industry and more recently as a probiotic ...
+     URL: https://en.wikipedia.org/wiki/Hafnia_(bacterium)
+  2. Yesterday: Gorgeous Alvei in Holbæk Harbour. Exciting to ...
+     The harbour area in Copenhagen seen from Nyhavn. No photo description available.
+     URL: https://www.facebook.com/groups/2257968913/posts/10163186856653914/
+  3. Hafnia alvei - an overview
+     paratyphi alvei. Hafnia is the old name for Copenhagen. The epithet alvei is chosen because the bacterium has been isolated from the intestinal tract of honey ...
+     URL: https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/hafnia-alvei
+  4. Event & Corporate Travel Agency
+     Discover tailor-made event experiences and group travel services with ALIVE. Contact our Copenhagen team for unique corporate events that leave a lasting ...
+     URL: https://alive.dk/en/
+  5. CCUG 429 - Hafnia alvei
+     Sample Origin: Denmark, Copenhagen. Source: Human clinical isolate, no more information ! Depositor: U.Arfwidsson, Antigen Dept., SBL, Stockholm, Sweden.
+     URL: https://www.ccug.se/strain?id=429
+
+Step 2 [web_fetch]:
+Fetched content (relevant excerpts):
+ole of
+H. alvei
+in cheese ripening
+4
+Culture growth
+5
+Biology
+Toggle Biology subsection
+5.1
+Lipopolysaccharides
+5.2
+Biotypes
+6
+Pathogenicity and antimicrobial susceptibility
+7
+Health benefits
+8
+Regulatory status
+9
+References
+10
+External links
+Toggle the table of contents
+Hafnia
+(bacterium)
+9 languages
+Deutsch
+Español
+Français
+Italiano
+日本語
+Polski
+Português
+Русский
+Türkçe
+Edit links
+Article
+Talk
+English
+Read
+Edit
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+Edit
+View history
+General
+What links here
+Related changes
+Upload file
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Download QR code
+Print/export
+Download as PDF
+Printable version
+In other projects
+Wikimedia Commons
+Wikispecies
+Wikidata item
+Appearance
+move to sidebar
+hide
+From Wikipedia, the free encyclopedia
+Genus of bacteria
+Hafnia
+Hafnia alvei
+cultures
+Scientific classification
+Domain:
+Bacteria
+Kingdom:
+Pseudomonadati
+Phylum:
+Pseudomonadota
+Class:
+Gammaproteobacteria
+Order:
+Enterobacterales
+Family:
+Haf
+...
+n slaughtered cattle. It can be found alongside
+E. coli
+in
+chorizo
+, a popular semi-dry fermented Spanish sausage.
+[
+15
+]
+Fermented sausages made in Spain were also reported to contain the
+Hafnia alvei
+strain, responsible for producing histamine that is crucial to the ripening process.
+[
+16
+]
+Commensal strain
+[
+edit
+]
+Most standard microbiology texts list mammals, birds, reptiles, fish, soil, water, sewage, and foods as sources from which hafniae can be recovered.
+The gastrointestinal tracts of animals, and in particular mammals, appear to be a very common ecologic habitat for
+hafniae
+. Paleomicrobiology investigations have identified
+H. alvei
+originating from intestinal mass samples and sediment collected from 12,000-year-old mastodon remains in Michigan and Ohio. In a study of 642 Australian mammals, Gordon and FitzGibbon
+[
+17
+]
+found that
+H. alvei
+was the third most common enteric species identified, following
+Escherichia coli
+and
+E. cloacae
+. The isolation of
+H. alvei
+was significantly as
+...
+ensal
+of the human gastrointestinal tract and not normally
+pathogenic
+, but may cause disease in
+immunocompromised
+patients. It is often
+resistant
+to multiple antibiotics, including the
+aminopenicillins
+.
+The name comes from
+Hafnia
+, the
+Latin
+name for
+Copenhagen
+.
+Hafnia alvei
+is used as a lactic ferment
+[
+citation needed
+]
+by the dairy industry and more recently as a
+probiotic
+[
+2
+]
+[
+3
+]
+included in a
+dietary supplement
+product.
+History
+[
+edit
+]
+The genus
+Hafnia
+is one of more than 40 genera that currently comprise the order
+Enterobacterales
+.
+Although Møller originally described this genus in 1954, the legitimacy of this group was constantly challenged over the next two decades, often being referred to by synonyms such as "
+Enterobacter alvei
+", "
+Enterobacter aerogenes subsp. hafniae
+" and "
+Enterobacter hafniae
+" but it is mostly referenced by its current name,
+Hafnia alvei,
+in the literature.
+[
+4
+]
+[
+5
+]
+In 1977, a study concluded that at the end of
+Camembert
+manufacturing
+Hafnia al
+...
+robacter alvei
+", "
+Enterobacter aerogenes subsp. hafniae
+" and "
+Enterobacter hafniae
+" but it is mostly referenced by its current name,
+Hafnia alvei,
+in the literature.
+[
+4
+]
+[
+5
+]
+In 1977, a study concluded that at the end of
+Camembert
+manufacturing
+Hafnia alvei
+remains as the dominant species.
+Hafnia alvei
+is a psychrotrophic strain, which can develop at low temperatures, meaning that it doesn't stop growing during the storage phase of cheese unlike
+E. coli
+.
+[
+6
+]
+In 1983,
+Enterobacterales
+were discovered in freshly produced Camembert:
+[
+7
+]
+51% of the identified
+Enterobacterales
+were
+Hafnia alvei
+strains compared to only 9% of
+Escherichia coli
+.
+These authors also showed that
+Hafnia alvei
+grew to a  high concentration in cheese (up to 10
+7
+CFU/g), in both raw milk and pasteurised milk cheeses.
+A few years later, in 1987,
+Hafnia alvei
+was identified by a Spanish team in raw
+ewes' milk
+representing 6.5% of the total
+Enterobacterales
+species present.
+[
+8
+]
+In 2014, a collaborative study
+...
+emains as the dominant species.
+Hafnia alvei
+is a psychrotrophic strain, which can develop at low temperatures, meaning that it doesn't stop growing during the storage phase of cheese unlike
+E. coli
+.
+[
+6
+]
+In 1983,
+Enterobacterales
+were discovered in freshly produced Camembert:
+[
+7
+]
+51% of the identified
+Enterobacterales
+were
+Hafnia alvei
+strains compared to only 9% of
+Escherichia coli
+.
+These authors also showed that
+Hafnia alvei
+grew to a  high concentration in cheese (up to 10
+7
+CFU/g), in both raw milk and pasteurised milk cheeses.
+A few years later, in 1987,
+Hafnia alvei
+was identified by a Spanish team in raw
+ewes' milk
+representing 6.5% of the total
+Enterobacterales
+species present.
+[
+8
+]
+In 2014, a collaborative study working on cheese ripening, involving the French
+INRA
+and an Italian University, identified
+H. alvei
+in raw milk used to make the traditional
+caciocavallo
+Pugliese cheese.
+[
+9
+]
+Hafnia alvei
+is also present in fermented foods other than dairy products, it has been i
+
+Step 3 [web_search]:
+Found 5 results. Top 5:
+  1. An Insight into Goat Cheese: The Tales of Artisanal and ...
+     by A Nelli · 2023 · Cited by 16 — H. alvei is a frequent member of the microbiota in traditional cheeses possibly related to distinct organoleptic properties while also displaying antibacterial ...
+     URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC9863150/
+  2. Model-Document Protocol for AI Search
+     - Find scientific papers by Ilias Lagkouvardos concerning Hafnia alvei. - Find scientific papers by Olga Tapia concerning Hafnia alvei.
+     URL: https://arxiv.org/html/2510.25160v1
+  3. Microbial Ecology of Dairy Products: From Diversity to ...
+     ... Ilias Lagkouvardos and Athina Tzora. Microorganisms 2023, 11(1), 123; https ... Hafnia alvei (OTU 13) and Acinetobacter colistiniresistens (OTU 111) ...
+     URL: https://www.mdpi.com/journal/microorganisms/special_issues/microbial_dairy_products
+  4. TAMING DATA CHAOS: AGENTIC KNOWLEDGE WARE
+     - Find scientific papers by Ilias Lagkouvardos concerning Hafnia alvei. - Find scientific papers by Olga Tapia concerning Hafnia alvei. - Find the Wikipedia ...
+     URL: https://openreview.net/pdf/33edf163c7af013b388b9184f889dfeb6d8de411.pdf
+  5. The Molecular Weaponry Produced by the Bacterium ...
+     alvei is responsible for the production of biogenic amines or other compounds of special interest in food health. In this article, we will review the most ...
+     URL: https://ouci.dntb.gov.ua/en/works/98oB83al/
+
+Step 4 [web_fetch]: FAILED - 403 Client Error: Forbidden for url: https://www.mdpi.com/2076-2607/11/1/123
+
+Step 5 [web_search]:
+Found 5 results. Top 5:
+  1. The Molecular Weaponry Produced by the Bacterium ...
+     by J Ramos-Vivas · 2022 · Cited by 25 — In this article, we will review the most interesting molecules that produce the H. alvei strains and will discuss some of their properties.
+     URL: https://pubmed.ncbi.nlm.nih.gov/36080356/
+  2. The Molecular Weaponry Produced by the Bacterium ...
+     by J Ramos-Vivas · 2022 · Cited by 25 — In this article, we will review the most interesting molecules that produce the H. alvei strains and will discuss some of their properties.
+     URL: https://www.mdpi.com/1420-3049/27/17/5585
+  3. The Molecular Weaponry Produced by the Bacterium ...
+     alvei is responsible for the production of biogenic amines or other compounds of special interest in food health. In this article, we will review the most ...
+     URL: https://ouci.dntb.gov.ua/en/works/98oB83al/
+  4. Biofilm formation in Hafnia alvei HUMV-5920, a human ...
+     Hafnia alvei is a Gram-negative, rodshaped, facultative anaerobic bacterium of the family Enterobacteriaceae that has been isolated from ...
+     URL: https://www.aimspress.com/article/doi/10.3934/microbiol.2016.4.412?viewType=HTML
+  5. Olga Tapia Martínez (0000-0002-0802-7975)
+     Olga Tapia Martínez. Olga Tapia. edit. orcid logo. 0000-0002-0802-7975. content_copy ... The Molecular Weaponry Produced by the Bacterium Hafnia alvei in Foods.
+     URL: https://orcid.org/0000-0002-0802-7975
+
+Step 6 [web_fetch]:
+Fetched content (relevant excerpts):
+perly. Please enable it to take advantage of the complete set of features!
+Clipboard, Search History, and several other advanced features are temporarily unavailable.
+Skip to main page content
+An official website of the United States government
+Here's how you know
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before
+            sharing sensitive information, make sure you’re on a federal
+            government site.
+The site is secure.
+The
+https://
+ensures that you are connecting to the
+            official website and that any information you provide is encrypted
+            and transmitted securely.
+Log in
+Show account info
+Close
+Account
+Logged in as:
+username
+Dashboard
+Publications
+Account settings
+Log out
+Access keys
+NCBI Homepage
+MyNCBI Homepage
+Main Content
+Main Navigation
+Search:
+Search
+Advanced
+Clipboard
+User Guide
+Save
+Email
+Send to
+Clipboard
+My Bibliography
+Collections
+Citation manager
+Display options
+Display options
+Format
+Abstract
+PubMed
+P
+...
+che, 60131 Ancona, Italy.
+5
+International Joint Research Laboratory of Intelligent Agriculture and Agri-Products Processing, Jiangsu University, Zhenjiang 212013, China.
+6
+Department of Biochemistry, Faculty of Sciences, King Abdulaziz University, Jeddah 80200, Saudi Arabia.
+PMID:
+36080356
+PMCID:
+PMC9457839
+DOI:
+10.3390/molecules27175585
+Item in Clipboard
+Full text links
+Cite
+Display options
+Display options
+Format
+Abstract
+PubMed
+PMID
+Abstract
+Hafnia alvei
+is receiving increasing attention from both a medical and veterinary point of view, but the diversity of molecules it produces has made the interest in this bacterium extend to the field of probiotics, the microbiota, and above all, to its presence and action on consumer foods. The production of Acyl Homoserine Lactones (AHLs), a type of quorum-sensing (QS) signaling molecule, is the most often-studied chemical signaling molecule in Gram-negative bacteria.
+H. alvei
+can use this communication mechanism to promote the expression of certain
+...
+f interest statement
+References
+Publication types
+MeSH terms
+Substances
+Grants and funding
+LinkOut - more resources
+Title & authors
+Abstract
+Conflict of interest statement
+References
+Publication types
+MeSH terms
+Substances
+Grants and funding
+LinkOut - more resources
+Review
+Molecules
+Actions
+Search in PubMed
+Search in NLM Catalog
+Add to Search
+.
+2022 Aug 30;27(17):5585.
+doi: 10.3390/molecules27175585.
+The Molecular Weaponry Produced by the Bacterium
+Hafnia alvei
+in Foods
+José Ramos-Vivas
+1
+2
+3
+,
+Olga Tapia
+1
+,
+María Elexpuru-Zabaleta
+1
+,
+Kilian Tutusaus Pifarre
+1
+2
+,
+Yasmany Armas Diaz
+4
+,
+Maurizio Battino
+1
+4
+5
+,
+Francesca Giampieri
+1
+6
+Affiliations
+Expand
+Affiliations
+1
+Research Group on Foods, Nutritional Biochemistry and Health, Universidad Europea del Atlántico, 39011 Santander, Spain.
+2
+Research Group on Foods, Nutritional Biochemistry and Health, Universidad Internacional Iberoamericana, Campeche 24560, Mexico.
+3
+CIBER of Infectious Diseases-CIBERINFEC, Instituto de Salud Carlos III,
+...
+erest statement
+References
+Publication types
+MeSH terms
+Substances
+Grants and funding
+LinkOut - more resources
+Title & authors
+Abstract
+Conflict of interest statement
+References
+Publication types
+MeSH terms
+Substances
+Grants and funding
+LinkOut - more resources
+Review
+Molecules
+Actions
+Search in PubMed
+Search in NLM Catalog
+Add to Search
+.
+2022 Aug 30;27(17):5585.
+doi: 10.3390/molecules27175585.
+The Molecular Weaponry Produced by the Bacterium
+Hafnia alvei
+in Foods
+José Ramos-Vivas
+1
+2
+3
+,
+Olga Tapia
+1
+,
+María Elexpuru-Zabaleta
+1
+,
+Kilian Tutusaus Pifarre
+1
+2
+,
+Yasmany Armas Diaz
+4
+,
+Maurizio Battino
+1
+4
+5
+,
+Francesca Giampieri
+1
+6
+Affiliations
+Expand
+Affiliations
+1
+Research Group on Foods, Nutritional Biochemistry and Health, Universidad Europea del Atlántico, 39011 Santander, Spain.
+2
+Research Group on Foods, Nutritional Biochemistry and Health, Universidad Internacional Iberoamericana, Campeche 24560, Mexico.
+3
+CIBER of Infectious Diseases-CIBERINFEC, Instituto de Salud Carlos III, 28029
+...
+The Molecular Weaponry Produced by the Bacterium Hafnia alvei in Foods - PubMed
+This site needs JavaScript to work properly. Please enable it to take advantage of the complete set of features!
+Clipboard, Search History, and several other advanced features are temporarily unavailable.
+Skip to main page content
+An official website of the United States government
+Here's how you know
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before
+            sharing sensitive information, make sure you’re on a federal
+            g
+
+Step 7 [web_search]:
+Found 5 results. Top 5:
+  1. First 100 Animals | Alphabetimals Wiki - Fandom
+     Babies on the Farm. Chick. Kid. Foal. Lamb. Calf. Duckling. Piglet. Gosling. On the Farm. Goose. Rooster. Duck. Turkey. Sheep. Pony. Horse. Donkey.
+     URL: https://alphabetimals.fandom.com/wiki/First_100_Animals
+  2. Write the first letter of each animal here 🐕🐘🐄🐘🐒🦇🐘🐁 Then ...
+     You will need animal pictures on a white background and crayons. - First, print out an animal image from your computer to fill the page. You ...
+     URL: https://www.facebook.com/ChomaMaanuRadioStation95.1FM/posts/write-the-first-letter-of-each-animal-here-then-tell-us-the-word/572589284877305/
+  3. All Animals A-Z List - Animal Names
+     You will find all of our animals below. From Aardvark to Zorse we are building the most comprehensive body of animal names on the web!
+     URL: https://a-z-animals.com/animals/
+  4. How to Make 5 Cute Paper Animals | Simple Origami For ...
+     And share your creations with us! We are showing you video tutorial on how to make a whale, a fox, a fish, a dog and a butterfly.
+     URL: https://www.youtube.com/watch?v=M2UiiPTC-Wc
+  5. Handprint Animal Alphabet A-Z
+     A complete set of A-Z Handprint Animals - explore the Alpabet with these cute and original set of handprint crafts. Your preschooler will love them.
+     URL: https://www.redtedart.com/handprint-animals-alphabet-a-z/
+
+Step 8 [wikipedia_search]: FAILED - 403 Client Error: Forbidden for url: https://en.wikipedia.org/api/rest_v1/page/summary/each%20animal%20from%20the%20first%20paper

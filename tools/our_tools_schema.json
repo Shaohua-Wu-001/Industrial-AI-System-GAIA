@@ -1,0 +1,1138 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "aggregate_data",
+      "description": "Aggregate data.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "group_by": {
+            "type": "string",
+            "description": "The group_by parameter"
+          },
+          "aggregate_field": {
+            "type": "string",
+            "description": "The aggregate_field parameter"
+          },
+          "operation": {
+            "type": "string",
+            "description": "The operation parameter"
+          }
+        },
+        "required": [
+          "data",
+          "group_by",
+          "aggregate_field"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "analyze_image",
+      "description": "Analyze image properties.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "The file_path parameter"
+          }
+        },
+        "required": [
+          "file_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "calculate",
+      "description": "Safe math expression evaluator with pow estimation and finite check.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "type": "string",
+            "description": "The expression parameter"
+          }
+        },
+        "required": [
+          "expression"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "compare_data",
+      "description": "Compare two datasets.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data1": {
+            "type": "string",
+            "description": "The data1 parameter"
+          },
+          "data2": {
+            "type": "string",
+            "description": "The data2 parameter"
+          },
+          "comparison_type": {
+            "type": "string",
+            "description": "The comparison_type parameter"
+          }
+        },
+        "required": [
+          "data1",
+          "data2"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "compare_values",
+      "description": "Compare two values.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value1": {
+            "type": "string",
+            "description": "The value1 parameter"
+          },
+          "value2": {
+            "type": "string",
+            "description": "The value2 parameter"
+          },
+          "comparison": {
+            "type": "string",
+            "description": "The comparison parameter"
+          },
+          "tolerance": {
+            "type": "number",
+            "description": "The tolerance parameter"
+          },
+          "similarity_threshold": {
+            "type": "number",
+            "description": "The similarity_threshold parameter"
+          }
+        },
+        "required": [
+          "value1",
+          "value2"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "correlation_analysis",
+      "description": "Correlation analysis with Spearman support.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "x_column": {
+            "type": "string",
+            "description": "The x_column parameter"
+          },
+          "y_column": {
+            "type": "string",
+            "description": "The y_column parameter"
+          },
+          "method": {
+            "type": "string",
+            "description": "The method parameter"
+          }
+        },
+        "required": [
+          "data",
+          "x_column",
+          "y_column"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "count_occurrences",
+      "description": "Count occurrences with case-insensitive list support.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "target": {
+            "type": "string",
+            "description": "The target parameter"
+          },
+          "case_sensitive": {
+            "type": "boolean",
+            "description": "The case_sensitive parameter"
+          },
+          "count_type": {
+            "type": "string",
+            "description": "The count_type parameter"
+          }
+        },
+        "required": [
+          "data",
+          "target"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "create_csv",
+      "description": "Create CSV file.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "filename": {
+            "type": "string",
+            "description": "The filename parameter"
+          },
+          "include_header": {
+            "type": "boolean",
+            "description": "The include_header parameter"
+          }
+        },
+        "required": [
+          "data",
+          "filename"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "create_markdown",
+      "description": "Create Markdown document.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "The title parameter"
+          },
+          "sections": {
+            "type": "string",
+            "description": "The sections parameter"
+          },
+          "filename": {
+            "type": "string",
+            "description": "The filename parameter"
+          }
+        },
+        "required": [
+          "title",
+          "sections"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "currency_converter",
+      "description": "Currency converter with SSRF protection and input validation.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "number",
+            "description": "The amount parameter"
+          },
+          "from_currency": {
+            "type": "string",
+            "description": "The from_currency parameter"
+          },
+          "to_currency": {
+            "type": "string",
+            "description": "The to_currency parameter"
+          }
+        },
+        "required": [
+          "amount",
+          "from_currency",
+          "to_currency"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "date_calculator",
+      "description": "Date calculator.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "start_date": {
+            "type": "string",
+            "description": "The start_date parameter"
+          },
+          "days_to_add": {
+            "type": "integer",
+            "description": "The days_to_add parameter"
+          },
+          "end_date": {
+            "type": "string",
+            "description": "The end_date parameter"
+          },
+          "date_format": {
+            "type": "string",
+            "description": "The date_format parameter"
+          }
+        },
+        "required": [
+          "start_date"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "deduplicate_data",
+      "description": "Deduplicate data.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "key_fields": {
+            "type": "string",
+            "description": "The key_fields parameter"
+          }
+        },
+        "required": [
+          "data"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "encode_decode",
+      "description": "Encode/decode text with error handling.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The text parameter"
+          },
+          "operation": {
+            "type": "string",
+            "description": "The operation parameter"
+          }
+        },
+        "required": [
+          "text",
+          "operation"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "extract_information",
+      "description": "Extract information from text.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The text parameter"
+          },
+          "extract_type": {
+            "type": "string",
+            "description": "The extract_type parameter"
+          },
+          "keywords": {
+            "type": "string",
+            "description": "The keywords parameter"
+          },
+          "pattern": {
+            "type": "string",
+            "description": "The pattern parameter"
+          }
+        },
+        "required": [
+          "text",
+          "extract_type"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "extract_zip",
+      "description": "Extract ZIP file with complete security protection. Essential for gaia_val_l3_006.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "zip_path": {
+            "type": "string",
+            "description": "The zip_path parameter"
+          },
+          "extract_to": {
+            "type": "string",
+            "description": "The extract_to parameter"
+          },
+          "password": {
+            "type": "string",
+            "description": "The password parameter"
+          }
+        },
+        "required": [
+          "zip_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "fill_missing",
+      "description": "Fill missing values.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "columns": {
+            "type": "string",
+            "description": "The columns parameter"
+          },
+          "method": {
+            "type": "string",
+            "description": "The method parameter"
+          }
+        },
+        "required": [
+          "data",
+          "columns"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "filter_data",
+      "description": "Filter data by conditions.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "conditions": {
+            "type": "string",
+            "description": "The conditions parameter"
+          }
+        },
+        "required": [
+          "data",
+          "conditions"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "find_in_text",
+      "description": "Find in text with early stopping for high-frequency terms.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The text parameter"
+          },
+          "search_terms": {
+            "type": "string",
+            "description": "The search_terms parameter"
+          },
+          "context_chars": {
+            "type": "integer",
+            "description": "The context_chars parameter"
+          },
+          "max_results": {
+            "type": "integer",
+            "description": "The max_results parameter"
+          }
+        },
+        "required": [
+          "text",
+          "search_terms"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "geocoding",
+      "description": "Geocoding with SSRF protection.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "location": {
+            "type": "string",
+            "description": "The location parameter"
+          },
+          "return_info": {
+            "type": "string",
+            "description": "The return_info parameter"
+          }
+        },
+        "required": [
+          "location",
+          "return_info"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "image_to_text",
+      "description": "OCR text extraction.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "The file_path parameter"
+          },
+          "lang": {
+            "type": "string",
+            "description": "The lang parameter"
+          }
+        },
+        "required": [
+          "file_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "join_data",
+      "description": "Join data with duplicate key detection.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data1": {
+            "type": "string",
+            "description": "The data1 parameter"
+          },
+          "data2": {
+            "type": "string",
+            "description": "The data2 parameter"
+          },
+          "join_key": {
+            "type": "string",
+            "description": "The join_key parameter"
+          },
+          "join_type": {
+            "type": "string",
+            "description": "The join_type parameter"
+          }
+        },
+        "required": [
+          "data1",
+          "data2",
+          "join_key"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list_operations",
+      "description": "List operations with deterministic ordering.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "list1": {
+            "type": "array",
+            "description": "The list1 parameter"
+          },
+          "list2": {
+            "type": "string",
+            "description": "The list2 parameter"
+          },
+          "operation": {
+            "type": "string",
+            "description": "The operation parameter"
+          }
+        },
+        "required": [
+          "list1"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "moving_average",
+      "description": "Moving average.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "window_size": {
+            "type": "integer",
+            "description": "The window_size parameter"
+          }
+        },
+        "required": [
+          "data",
+          "window_size"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "pivot_table",
+      "description": "Create pivot table.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "index": {
+            "type": "string",
+            "description": "The index parameter"
+          },
+          "values": {
+            "type": "string",
+            "description": "The values parameter"
+          },
+          "aggfunc": {
+            "type": "string",
+            "description": "The aggfunc parameter"
+          }
+        },
+        "required": [
+          "data",
+          "index",
+          "values"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "read_csv",
+      "description": "Read CSV file with size limit.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "The file_path parameter"
+          },
+          "encoding": {
+            "type": "string",
+            "description": "The encoding parameter"
+          }
+        },
+        "required": [
+          "file_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "read_docx",
+      "description": "Read Word document.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "The file_path parameter"
+          }
+        },
+        "required": [
+          "file_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "read_excel",
+      "description": "Read Excel file with size limit.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "The file_path parameter"
+          },
+          "sheet_name": {
+            "type": "string",
+            "description": "The sheet_name parameter"
+          }
+        },
+        "required": [
+          "file_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "read_image",
+      "description": "Read image file.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "The file_path parameter"
+          }
+        },
+        "required": [
+          "file_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "read_json",
+      "description": "Read JSON file (supports .json and .jsonld).",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "The file_path parameter"
+          },
+          "encoding": {
+            "type": "string",
+            "description": "The encoding parameter"
+          }
+        },
+        "required": [
+          "file_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "read_pdf",
+      "description": "Read PDF file. Page numbers are 1-indexed.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "The file_path parameter"
+          },
+          "page_numbers": {
+            "type": "string",
+            "description": "The page_numbers parameter"
+          }
+        },
+        "required": [
+          "file_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "read_text_file",
+      "description": "Read text file with size limit.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "The file_path parameter"
+          },
+          "encoding": {
+            "type": "string",
+            "description": "The encoding parameter"
+          }
+        },
+        "required": [
+          "file_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "read_xml",
+      "description": "Read XML file and convert to dictionary with depth/size limits. Essential for gaia_val_l3_006.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "The file_path parameter"
+          },
+          "encoding": {
+            "type": "string",
+            "description": "The encoding parameter"
+          }
+        },
+        "required": [
+          "file_path"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "regex_search",
+      "description": "Regex search with ReDoS protection.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The text parameter"
+          },
+          "pattern": {
+            "type": "string",
+            "description": "The pattern parameter"
+          },
+          "return_all": {
+            "type": "boolean",
+            "description": "The return_all parameter"
+          }
+        },
+        "required": [
+          "text",
+          "pattern"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "sample_data",
+      "description": "Random sample.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "n": {
+            "type": "integer",
+            "description": "The n parameter"
+          },
+          "random_seed": {
+            "type": "string",
+            "description": "The random_seed parameter"
+          }
+        },
+        "required": [
+          "data",
+          "n"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "sort_data",
+      "description": "Sort data.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "sort_by": {
+            "type": "string",
+            "description": "The sort_by parameter"
+          },
+          "reverse": {
+            "type": "boolean",
+            "description": "The reverse parameter"
+          }
+        },
+        "required": [
+          "data",
+          "sort_by"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "split_join_text",
+      "description": "Split/join text.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The text parameter"
+          },
+          "operation": {
+            "type": "string",
+            "description": "The operation parameter"
+          },
+          "separator": {
+            "type": "string",
+            "description": "The separator parameter"
+          }
+        },
+        "required": [
+          "text",
+          "operation"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "statistical_analysis",
+      "description": "Statistical analysis.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "metrics": {
+            "type": "string",
+            "description": "The metrics parameter"
+          }
+        },
+        "required": [
+          "data",
+          "metrics"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "string_transform",
+      "description": "String transformation.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "The text parameter"
+          },
+          "operation": {
+            "type": "string",
+            "description": "The operation parameter"
+          }
+        },
+        "required": [
+          "text",
+          "operation"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "unit_converter",
+      "description": "Unit converter.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "number",
+            "description": "The value parameter"
+          },
+          "from_unit": {
+            "type": "string",
+            "description": "The from_unit parameter"
+          },
+          "to_unit": {
+            "type": "string",
+            "description": "The to_unit parameter"
+          },
+          "unit_type": {
+            "type": "string",
+            "description": "The unit_type parameter"
+          }
+        },
+        "required": [
+          "value",
+          "from_unit",
+          "to_unit"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "validate_data",
+      "description": "Validate data against rules.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "string",
+            "description": "The data parameter"
+          },
+          "rules": {
+            "type": "string",
+            "description": "The rules parameter"
+          }
+        },
+        "required": [
+          "data",
+          "rules"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "web_fetch",
+      "description": "Fetch webpage with SSRF protection and proper resource management.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": "The url parameter"
+          },
+          "timeout": {
+            "type": "integer",
+            "description": "The timeout parameter"
+          }
+        },
+        "required": [
+          "url"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "web_search",
+      "description": "Web search with Serper API or simulation.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The query parameter"
+          },
+          "num_results": {
+            "type": "integer",
+            "description": "The num_results parameter"
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "wikipedia_search",
+      "description": "Wikipedia search with language validation and domain allowlist.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The query parameter"
+          },
+          "language": {
+            "type": "string",
+            "description": "The language parameter"
+          },
+          "sentences": {
+            "type": "integer",
+            "description": "The sentences parameter"
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    }
+  }
+]
