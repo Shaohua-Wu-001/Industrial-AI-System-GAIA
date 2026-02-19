@@ -1,42 +1,207 @@
-# 統一的工具定義
+# tools/
 
-這個資料夾包含合併後的工具 schema 和對應規則。
+**Unified Tool Schema Definitions**
 
-## 檔案說明
+Centralized registry of 50+ tool definitions used across the GAIA execution pipeline. Merges TA-provided tool schemas with custom-built tools into a single, consistent format.
 
-- `our_tools_schema.json` - 我們原本的 43 個工具 schema
-- `ta_tools_schema.json` - 助教的 16 個工具 schema（待建立）
-- `unified_tools_schema.json` - 合併後的統一 schema（待建立）
-- `tools_mapping.json` - 工具對應表
-- `extract_tools_schema.py` - 提取工具 schema 的腳本
+---
 
-## 工具整合策略
+## Overview
 
-### 1. 直接使用助教的工具（10 個）
-- web_search, calculator, pdf_reader, excel_reader, zip_extractor
-- file_reader, python_executor, code_interpreter, audio_transcription
-- image_recognition
+The GAIA pipeline orchestrates dozens of heterogeneous tools -- from web search and code execution to specialized file parsers and statistical analyzers. This directory maintains the canonical schema for every tool, ensuring consistent parameter naming, type checking, and documentation across the system.
 
-### 2. 保留我們的工具（35+ 個）
-- 資料處理：aggregate_data, filter_data, sort_data, join_data, pivot_table
-- 統計分析：correlation_analysis, statistical_analysis, moving_average
-- 其他讀取：read_json, read_xml, read_docx, read_csv
-- 工具：unit_converter, date_calculator, currency_converter
-- 文字處理：extract_information, find_in_text, regex_search
+### Tool Inventory
 
-### 3. 合併的工具（5 個）
-- web_browser + web_fetch → web_fetch（增強版）
-- download_file + web_fetch → web_fetch（增強版）
-- pptx_reader + read_docx → read_pptx（新增）
-- image_recognition + image_to_text → image_recognition（使用助教的）
-- video_analysis + analyze_image → video_analysis（使用助教的）
+| Category | TA Tools | Custom Tools | Total |
+|---|---|---|---|
+| File I/O | 7 | 5 | 12 |
+| Computation | 3 | 8 | 11 |
+| Data Processing | 2 | 7 | 9 |
+| Text Processing | 2 | 6 | 8 |
+| Retrieval | 1 | 4 | 5 |
+| Statistical Analysis | 0 | 4 | 4 |
+| Conversion | 1 | 2 | 3 |
+| **Total** | **16** | **~36** | **~52** |
 
-**預估最終工具數**：約 50 個
+---
 
-## 下一步
+## Schema Format
 
-1. 從助教的 gaia.infer.jsonl 提取工具 schema
-2. 合併兩邊的工具，建立 unified_tools_schema.json
-3. 更新 Parser v5 以使用統一的 schema
+Each tool is defined as a JSON object following a consistent schema:
 
-**最後更新**：2026-02-09
+```json
+{
+  "tool_name": "pdf_reader",
+  "category": "file_io",
+  "description": "Extract text content from a PDF document.",
+  "parameters": [
+    {
+      "name": "file_path",
+      "type": "string",
+      "required": true,
+      "description": "Path to the PDF file"
+    },
+    {
+      "name": "pages",
+      "type": "string",
+      "required": false,
+      "description": "Page range to extract (e.g., '1-5', '3,7,10')"
+    }
+  ],
+  "returns": {
+    "type": "string",
+    "description": "Extracted text content"
+  },
+  "source": "ta",
+  "aliases": ["read_pdf", "parse_pdf"]
+}
+```
+
+---
+
+## Tool Categories
+
+### File I/O
+
+Read and parse various file formats.
+
+| Tool | Formats | Source |
+|---|---|---|
+| `pdf_reader` | PDF | TA |
+| `excel_reader` | XLSX, XLS | TA |
+| `csv_reader` | CSV, TSV | TA |
+| `json_reader` | JSON, JSONL, JSONLD | TA |
+| `xml_reader` | XML | TA |
+| `text_reader` | TXT, LOG, MD | TA |
+| `image_reader` | PNG, JPG (OCR) | TA |
+| `zip_extractor` | ZIP, TAR, GZ | Custom |
+| `html_parser` | HTML | Custom |
+| `yaml_reader` | YAML | Custom |
+| `docx_reader` | DOCX | Custom |
+| `pptx_reader` | PPTX | Custom |
+
+### Computation
+
+Execute code and evaluate expressions.
+
+| Tool | Description | Source |
+|---|---|---|
+| `python_executor` | Run Python code in a sandboxed environment | TA |
+| `calculator` | Evaluate mathematical expressions | TA |
+| `unit_converter` | Convert between measurement units | TA |
+| `regex_evaluator` | Test and apply regular expressions | Custom |
+| `date_calculator` | Date arithmetic and formatting | Custom |
+| `statistics_calculator` | Descriptive statistics (mean, median, std) | Custom |
+| `matrix_calculator` | Matrix operations | Custom |
+| `equation_solver` | Symbolic equation solving | Custom |
+
+### Data Processing
+
+Transform and aggregate structured data.
+
+| Tool | Description | Source |
+|---|---|---|
+| `data_filter` | Filter rows by condition | Custom |
+| `data_aggregator` | Group-by and aggregate operations | Custom |
+| `data_sorter` | Sort by one or more columns | Custom |
+| `data_merger` | Join/merge multiple datasets | Custom |
+| `pivot_table` | Pivot and unpivot operations | Custom |
+| `deduplicator` | Remove duplicate records | Custom |
+| `schema_validator` | Validate data against a schema | Custom |
+
+### Text Processing
+
+String manipulation and NLP operations.
+
+| Tool | Description | Source |
+|---|---|---|
+| `string_processor` | Regex, split, replace, format | TA |
+| `translator` | Language translation | TA |
+| `summarizer` | Document summarization | Custom |
+| `entity_extractor` | Named entity recognition | Custom |
+| `sentiment_analyzer` | Sentiment classification | Custom |
+| `keyword_extractor` | Extract key terms from text | Custom |
+| `text_comparator` | Diff and similarity scoring | Custom |
+| `tokenizer` | Text tokenization and counting | Custom |
+
+### Retrieval
+
+Fetch information from external sources.
+
+| Tool | Description | Source |
+|---|---|---|
+| `web_search` | General web search | TA |
+| `url_fetcher` | Fetch content from a URL | Custom |
+| `api_caller` | Make HTTP API requests | Custom |
+| `database_query` | Execute SQL queries | Custom |
+| `knowledge_lookup` | Query a knowledge base | Custom |
+
+---
+
+## Merging Strategy
+
+When TA tools and custom tools overlap in functionality, the following merge rules apply:
+
+1. **TA schema takes precedence** for parameter naming and types
+2. **Custom extensions** are added as optional parameters
+3. **Aliases** map legacy or alternative names to the canonical tool name
+4. **Deprecation** -- superseded tools are moved to `/archive` with a redirect note
+
+```bash
+# Extract and merge schemas from multiple sources
+python tools/merge_schemas.py \
+  --ta tools/ta_definitions/ \
+  --custom tools/custom_definitions/ \
+  --output tools/unified_schema.json
+```
+
+---
+
+## Directory Structure
+
+```
+tools/
+|-- unified_schema.json       # Merged schema for all 50+ tools
+|-- ta_definitions/           # Original 16 TA tool schemas
+|-- custom_definitions/       # 35+ custom tool schemas
+|-- merge_schemas.py          # Schema merging script
+|-- extract_schemas.py        # Extract schemas from code annotations
+|-- validate_schemas.py       # Schema consistency checker
+|-- README.md
+```
+
+---
+
+## Usage
+
+### Load the unified schema
+
+```python
+import json
+
+with open("tools/unified_schema.json", "r") as f:
+    tools = json.load(f)
+
+print(f"Total tools: {len(tools)}")
+for tool in tools:
+    print(f"  {tool['tool_name']} ({tool['category']})")
+```
+
+### Validate all schemas
+
+```bash
+python tools/validate_schemas.py --schema tools/unified_schema.json
+```
+
+### Extract schemas from annotated source code
+
+```bash
+python tools/extract_schemas.py --source src/ --output tools/custom_definitions/
+```
+
+---
+
+## Notes
+
+- The Parser v5 parameter checker uses `unified_schema.json` to validate tool inputs at plan time, before execution begins.
+- Tool availability is task-specific. Not all 50+ tools are exposed to every task; the `tool_environment` field in each task definition controls which tools the executor may invoke.
