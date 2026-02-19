@@ -1,39 +1,96 @@
-# Archive - 舊版本和實驗性檔案
+# archive/
 
-這個資料夾包含舊版本的 Parser、執行器和實驗性檔案，僅供參考。
+**Legacy Parsers, Executors, and Historical Artifacts**
 
-## 檔案說明
+This directory preserves earlier iterations of the planning and execution pipeline. These versions are retained for reproducibility and to document the evolution of the system architecture.
 
-### 舊版 Parser
-- `parser_v2.1.py` - Parser v2.1
-- `parser_v3_1_bugfix.py` - Parser v3.1（bug 修復版）
-- `parser_v3_executable.py` - Parser v3（可執行版）
-- `parser_v5_old.py` - Parser v5（舊版）
+---
 
-### 舊版執行器
-- `run_executor_v3.py` - 執行器 v3
-- `run_executor_v3.2.py` - 執行器 v3.2
+## Version History
 
-### 舊版資料
-- `plans_v2_1.json` - Parser v2.1 的輸出
-- `plans_v3_executable.json.backup` - Parser v3 的備份
-- `evaluation_report.json` - 舊版評估報告
+| Version | Component | Description |
+|---|---|---|
+| v2.1 | Parser | Initial chain-based planner; linear step sequences only |
+| v3 | Parser | Introduced DAG support and basic dependency inference |
+| v3 | Executor | First executor with parallel node dispatch |
+| v3.1 | Parser | Bugfix release -- corrected cycle detection and parameter passing |
+| v3.2 | Executor | Improved retry logic and timeout handling |
+| v5 | Parser (old) | Early draft of v5 before refactoring into current pipeline |
 
-### 測試/檢查檔案
-- `check_executor.py` - 執行器檢查腳本
-- `verify_v32_output.py` - v3.2 輸出驗證腳本
+### Evolution Timeline
 
-## 版本演進
+```
+v2.1 (chain-only)
+  |
+  v
+v3 (DAG support)
+  |
+  +--> v3.1 (parser bugfix)
+  |
+  +--> v3.2 (executor improvements)
+  |
+  v
+v5 (current -- moved to /v5_original and root pipeline)
+```
 
-1. **Parser v2.1**：最早期版本
-2. **Parser v3**：改進版，增加可執行性
-3. **Parser v3.1/v3.2**：bug 修復和自動修復
-4. **Parser v5**：目前使用的版本（在根目錄）
+---
 
-## 注意事項
+## Directory Contents
 
-- 這些檔案僅供參考，不建議使用
-- 如需使用舊版本，請先確認與當前資料的相容性
-- 新專案請使用根目錄的 `parser_v5.py`
+```
+archive/
+|-- parser_v2.1/           # Chain-based parser, linear plans only
+|-- parser_v3/             # First DAG-capable parser
+|-- parser_v3.1/           # Bugfix: cycle detection, parameter edge cases
+|-- parser_v5_old/         # Early v5 draft (superseded)
+|-- executor_v3/           # Parallel executor, basic retry
+|-- executor_v3.2/         # Enhanced timeout and error handling
+|-- data/                  # Historical test data and intermediate outputs
+|-- tests/                 # Legacy test scripts for validation
+```
 
-**最後更新**：2026-02-09
+---
+
+## Key Differences Across Versions
+
+### Parser
+
+| Feature | v2.1 | v3 | v3.1 | v5 |
+|---|:---:|:---:|:---:|:---:|
+| Linear chain plans | Yes | Yes | Yes | Yes |
+| DAG plans | -- | Yes | Yes | Yes |
+| Dependency inference | -- | Basic | Basic | 4-layer |
+| Cycle detection | -- | -- | Yes | Yes |
+| Parameter type checking | -- | -- | Partial | Full |
+| Strategic ordering | -- | -- | -- | Yes |
+
+### Executor
+
+| Feature | v3 | v3.2 |
+|---|:---:|:---:|
+| Parallel dispatch | Yes | Yes |
+| Retry on failure | Basic | Configurable |
+| Per-tool timeout | -- | Yes (2s budget) |
+| State management | In-memory | In-memory + checkpoint |
+
+---
+
+## Usage
+
+These modules are not actively maintained. To run legacy versions for comparison:
+
+```bash
+# Run parser v3 on a sample task
+python archive/parser_v3/parse.py --input sample_task.json
+
+# Run executor v3.2
+python archive/executor_v3.2/execute.py --plan plan.json --tools tools/
+```
+
+---
+
+## Notes
+
+- The current production pipeline lives at the repository root and in `/v5_original`.
+- Legacy data files may reference tool schemas that have since been renamed or merged. See `/tools/` for the current unified schema.
+- Test scripts in this directory may have broken imports due to restructuring. They are preserved as-is for historical reference.
