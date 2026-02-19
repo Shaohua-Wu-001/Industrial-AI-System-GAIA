@@ -1,45 +1,135 @@
-# 助教的 99 題 GAIA 資料
+# ta_99_tasks/
 
-這個資料夾包含助教提供的 99 題 GAIA 任務（Level 1: 38, Level 2: 50, Level 3: 11）。
+**99 GAIA Tasks from Teaching Assistant Annotations**
 
-## 資料來源
+A curated set of 99 tasks sourced from the GAIA inference dataset, annotated by teaching assistants with structured metadata, tool environments, and gold-standard answers.
 
-原始資料來自：
+---
+
+## Overview
+
+These tasks were extracted from the GAIA benchmark inference split and formatted for use with the project's execution pipeline. Each task includes a natural language query, a predefined tool environment, and a verified gold answer.
+
+### Level Distribution
+
+| Level | Count | Description |
+|---|---|---|
+| L1 | 38 | Single-tool, direct retrieval |
+| L2 | 50 | Multi-tool, moderate reasoning chains |
+| L3 | 11 | Complex multi-hop, cross-domain reasoning |
+| **Total** | **99** | |
+
+---
+
+## Data Format
+
+Tasks are stored in JSONL format (one JSON object per line):
+
+```json
+{
+  "task_id": "ta_001",
+  "level": 2,
+  "meta": {
+    "source": "gaia_inference",
+    "annotator": "TA",
+    "difficulty": "medium"
+  },
+  "query": "Find the population of the capital city mentioned in the attached document.",
+  "tool_environment": [
+    "web_search",
+    "pdf_reader",
+    "python_executor"
+  ],
+  "gold_answer": "8,336,817",
+  "attachments": []
+}
 ```
-../../LLM-planning-main/data/GAIA/gaia.infer/gaia.infer.jsonl
+
+### Field Descriptions
+
+| Field | Type | Description |
+|---|---|---|
+| `task_id` | string | Unique identifier |
+| `level` | int | GAIA difficulty level (1, 2, or 3) |
+| `meta` | object | Source, annotator, and difficulty metadata |
+| `query` | string | Natural language question |
+| `tool_environment` | array | List of tools available for this task |
+| `gold_answer` | string | Verified correct answer |
+| `attachments` | array | Paths to any attached files |
+
+---
+
+## Available Tools
+
+The tool environment for these tasks draws from 16 predefined tools:
+
+| Tool | Category | Description |
+|---|---|---|
+| `web_search` | Retrieval | Search the web for information |
+| `python_executor` | Computation | Execute Python code snippets |
+| `pdf_reader` | File I/O | Extract text from PDF documents |
+| `excel_reader` | File I/O | Read and parse Excel spreadsheets |
+| `csv_reader` | File I/O | Parse CSV files |
+| `image_reader` | File I/O | Extract text/data from images (OCR) |
+| `json_reader` | File I/O | Parse JSON/JSONLD files |
+| `xml_reader` | File I/O | Parse XML documents |
+| `text_reader` | File I/O | Read plain text files |
+| `calculator` | Computation | Evaluate mathematical expressions |
+| `unit_converter` | Computation | Convert between units |
+| `date_calculator` | Computation | Date arithmetic and formatting |
+| `string_processor` | Text | String manipulation (regex, split, etc.) |
+| `translator` | Text | Translate between languages |
+| `summarizer` | Text | Summarize long documents |
+| `reasoning` | Logic | Multi-step logical reasoning |
+
+---
+
+## Directory Structure
+
+```
+ta_99_tasks/
+|-- tasks.jsonl              # All 99 tasks in JSONL format
+|-- tasks/                   # Individual task JSON files (optional)
+|-- tool_definitions/        # Tool schemas used by these tasks
+|-- README.md
 ```
 
-## 檔案說明
+---
 
-- `gaia_infer.jsonl` - 99 題的原始資料（JSONL 格式，每行一個任務）
-- `ta_tools_schema.json` - 助教的工具 schema（從第一題中提取）
-- `README.md` - 本說明文件
+## Usage
 
-## 資料格式
+### Load tasks
 
-每個任務包含：
-- `meta` - 元資料（dataset, subset, split, id, difficulty等）
-- `query` - 問題描述（user_query, attachments等）
-- `tool_environment` - 可用的工具列表（含完整的 arguments_schema）
-- `gold` - 黃金答案（plan_dag, tool_calls, final_answer）
+```python
+import json
 
-## 工具列表（16 個）
+tasks = []
+with open("ta_99_tasks/tasks.jsonl", "r") as f:
+    for line in f:
+        tasks.append(json.loads(line.strip()))
 
-1. web_search - 搜尋網頁
-2. web_browser - 瀏覽網頁
-3. download_file - 下載檔案
-4. calculator - 計算器
-5. python_executor - 執行 Python 程式碼
-6. code_interpreter - 執行其他語言程式碼
-7. pdf_reader - 讀取 PDF
-8. excel_reader - 讀取 Excel/CSV
-9. file_reader - 讀取一般檔案
-10. pptx_reader - 讀取 PowerPoint
-11. zip_extractor - 解壓縮
-12. image_recognition - 圖像識別（OCR）
-13. audio_transcription - 音訊轉錄
-14. video_analysis - 影片分析
-15. reasoning - 推理步驟
-16. submit_final_answer - 提交答案
+print(f"Loaded {len(tasks)} tasks")
+# Loaded 99 tasks
+```
 
-**最後更新**：2026-02-09
+### Filter by level
+
+```python
+l3_tasks = [t for t in tasks if t["level"] == 3]
+print(f"Level 3 tasks: {len(l3_tasks)}")
+# Level 3 tasks: 11
+```
+
+### Run through the pipeline
+
+```bash
+python run_pipeline.py --input ta_99_tasks/tasks.jsonl --output results/ta99/
+```
+
+---
+
+## Notes
+
+- These tasks are a subset of the full GAIA inference dataset; they do not overlap with the 10 original Level 3 tasks in `/v5_original`.
+- Tool environments are task-specific: not all 16 tools are available for every task.
+- Gold answers have been verified by at least one annotator and cross-checked against GAIA reference answers.
